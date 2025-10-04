@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\workstation-backend.props" />
+</Project>

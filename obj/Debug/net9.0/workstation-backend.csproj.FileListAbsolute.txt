@@ -1,0 +1,1645 @@
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\appsettings.json
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\workstation-backend.staticwebassets.endpoints.json
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\workstation-backend.exe
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\workstation-backend.deps.json
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\workstation-backend.runtimeconfig.json
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\workstation-backend.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\workstation-backend.pdb
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\MySql.Data.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.Common.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.csproj.AssemblyReference.cache
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfoInputs.cache
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfo.cs
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.csproj.CoreCompileInputs.cache
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.sourcelink.json
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\scopedcss\bundle\workstation-backend.styles.css
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets\msbuild.workstation-backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets\msbuild.workstation-backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets\msbuild.build.workstation-backend.props
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.workstation-backend.props
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.workstation-backend.props
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstat.2DF67B83.Up2Date
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\refint\workstation-backend.dll
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.pdb
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\workstation-backend.genruntimeconfig.cache
+C:\Users\Luis Díaz\RiderProjects\backeend\obj\Debug\net9.0\ref\workstation-backend.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\appsettings.Development.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\appsettings.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\workstation-backend.staticwebassets.endpoints.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\workstation-backend.exe
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\workstation-backend.deps.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\workstation-backend.runtimeconfig.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\workstation-backend.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\workstation-backend.pdb
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\FluentValidation.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Humanizer.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\MySql.Data.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.Common.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.CodeDom.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ZstdSharp.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.csproj.AssemblyReference.cache
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfoInputs.cache
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfo.cs
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.csproj.CoreCompileInputs.cache
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.sourcelink.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\scopedcss\bundle\workstation-backend.styles.css
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets.build.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets.development.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets\msbuild.workstation-backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets\msbuild.workstation-backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets\msbuild.build.workstation-backend.props
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.workstation-backend.props
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.workstation-backend.props
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstat.2DF67B83.Up2Date
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\refint\workstation-backend.dll
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.pdb
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\workstation-backend.genruntimeconfig.cache
+C:\Jeremy\UPC\Ingeneria\CICLO 5\App Webs\backeend\obj\Debug\net9.0\ref\workstation-backend.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\appsettings.Development.json
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\appsettings.json
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\workstation-backend.staticwebassets.endpoints.json
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\workstation-backend.exe
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\workstation-backend.deps.json
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\workstation-backend.runtimeconfig.json
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\workstation-backend.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\workstation-backend.pdb
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\FluentValidation.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Google.Protobuf.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Humanizer.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Build.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Mono.TextTemplating.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\MySql.Data.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Newtonsoft.Json.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.Common.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.Configuration.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.Frameworks.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.LibraryModel.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.Packaging.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.ProjectModel.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.Protocol.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\NuGet.Versioning.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.CodeDom.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Composition.Convention.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Composition.Hosting.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Composition.Runtime.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Composition.TypedParts.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Security.Permissions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Windows.Extensions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ZstdSharp.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\af\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ar\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\az\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\bg\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\da\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\el\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fa\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\he\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\hr\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\hu\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\hy\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\id\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\is\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ku\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\lv\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\mt\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\nb\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\nl\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ro\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\sk\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\sl\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\sr\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\sv\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\uk\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\vi\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.csproj.AssemblyReference.cache
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.GeneratedMSBuildEditorConfig.editorconfig
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfoInputs.cache
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfo.cs
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.csproj.CoreCompileInputs.cache
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cs
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cache
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.sourcelink.json
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\scopedcss\bundle\workstation-backend.styles.css
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\staticwebassets.build.json
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\staticwebassets.build.json.cache
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\staticwebassets.development.json
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstat.2DF67B83.Up2Date
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.dll
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\refint\workstation-backend.dll
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.pdb
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\workstation-backend.genruntimeconfig.cache
+h:\WebApi\Aplicacionesweb\backeend\obj\Debug\net9.0\ref\workstation-backend.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\BCrypt.Net-Next.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+h:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\System.Text.Json.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\Aplicacionesweb\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\testhost.dll
+F:\backeend\bin\Debug\net9.0\appsettings.Development.json
+F:\backeend\bin\Debug\net9.0\appsettings.json
+F:\backeend\bin\Debug\net9.0\testhost.exe
+F:\backeend\bin\Debug\net9.0\workstation-backend.staticwebassets.endpoints.json
+F:\backeend\bin\Debug\net9.0\NUnit3.TestAdapter.pdb
+F:\backeend\bin\Debug\net9.0\nunit.engine.dll
+F:\backeend\bin\Debug\net9.0\nunit.engine.api.dll
+F:\backeend\bin\Debug\net9.0\nunit.engine.core.dll
+F:\backeend\bin\Debug\net9.0\testcentric.engine.metadata.dll
+F:\backeend\bin\Debug\net9.0\NUnit3.TestAdapter.dll
+F:\backeend\bin\Debug\net9.0\workstation-backend.exe
+F:\backeend\bin\Debug\net9.0\workstation-backend.deps.json
+F:\backeend\bin\Debug\net9.0\workstation-backend.runtimeconfig.json
+F:\backeend\bin\Debug\net9.0\workstation-backend.dll
+F:\backeend\bin\Debug\net9.0\workstation-backend.pdb
+F:\backeend\bin\Debug\net9.0\BCrypt.Net-Next.dll
+F:\backeend\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+F:\backeend\bin\Debug\net9.0\FluentValidation.dll
+F:\backeend\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+F:\backeend\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\backeend\bin\Debug\net9.0\Google.Protobuf.dll
+F:\backeend\bin\Debug\net9.0\Humanizer.dll
+F:\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+F:\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+F:\backeend\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.ApplicationInsights.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Build.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.Telemetry.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.VSTestBridge.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Testing.Platform.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.MSBuild.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.AdapterUtilities.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.CoreUtilities.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\backeend\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\backeend\bin\Debug\net9.0\Mono.TextTemplating.dll
+F:\backeend\bin\Debug\net9.0\MySql.Data.dll
+F:\backeend\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+F:\backeend\bin\Debug\net9.0\Newtonsoft.Json.dll
+F:\backeend\bin\Debug\net9.0\NuGet.Common.dll
+F:\backeend\bin\Debug\net9.0\NuGet.Configuration.dll
+F:\backeend\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+F:\backeend\bin\Debug\net9.0\NuGet.Frameworks.dll
+F:\backeend\bin\Debug\net9.0\NuGet.LibraryModel.dll
+F:\backeend\bin\Debug\net9.0\NuGet.Packaging.dll
+F:\backeend\bin\Debug\net9.0\NuGet.ProjectModel.dll
+F:\backeend\bin\Debug\net9.0\NuGet.Protocol.dll
+F:\backeend\bin\Debug\net9.0\NuGet.Versioning.dll
+F:\backeend\bin\Debug\net9.0\nunit.framework.dll
+F:\backeend\bin\Debug\net9.0\nunit.framework.legacy.dll
+F:\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\backeend\bin\Debug\net9.0\System.CodeDom.dll
+F:\backeend\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+F:\backeend\bin\Debug\net9.0\System.Composition.Convention.dll
+F:\backeend\bin\Debug\net9.0\System.Composition.Hosting.dll
+F:\backeend\bin\Debug\net9.0\System.Composition.Runtime.dll
+F:\backeend\bin\Debug\net9.0\System.Composition.TypedParts.dll
+F:\backeend\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+F:\backeend\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+F:\backeend\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+F:\backeend\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+F:\backeend\bin\Debug\net9.0\System.Security.Permissions.dll
+F:\backeend\bin\Debug\net9.0\System.Windows.Extensions.dll
+F:\backeend\bin\Debug\net9.0\ZstdSharp.dll
+F:\backeend\bin\Debug\net9.0\af\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ar\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\az\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\bg\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\da\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\el\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\fa\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\he\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\hr\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\hu\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\hy\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\id\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\is\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ku\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\lv\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\mt\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\nb\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\nl\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\pt\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ro\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\sk\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\sl\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\sr\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\sv\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\uk\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\vi\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Extensions.Telemetry.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Platform.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\backeend\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+F:\backeend\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+F:\backeend\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+F:\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+F:\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+F:\backeend\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+F:\backeend\obj\Debug\net9.0\workstation-backend.csproj.AssemblyReference.cache
+F:\backeend\obj\Debug\net9.0\rpswa.dswa.cache.json
+F:\backeend\obj\Debug\net9.0\workstation-backend.GeneratedMSBuildEditorConfig.editorconfig
+F:\backeend\obj\Debug\net9.0\workstation-backend.gentestingplatformentrypointinputcache.cache
+F:\backeend\obj\Debug\net9.0\workstation-backend.genautoregisteredextensionsinputcache.cache
+F:\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfoInputs.cache
+F:\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfo.cs
+F:\backeend\obj\Debug\net9.0\workstation-backend.csproj.CoreCompileInputs.cache
+F:\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cs
+F:\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cache
+F:\backeend\obj\Debug\net9.0\workstation-backend.sourcelink.json
+F:\backeend\obj\Debug\net9.0\rjimswa.dswa.cache.json
+F:\backeend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+F:\backeend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+F:\backeend\obj\Debug\net9.0\scopedcss\bundle\workstation-backend.styles.css
+F:\backeend\obj\Debug\net9.0\staticwebassets.build.json
+F:\backeend\obj\Debug\net9.0\staticwebassets.build.json.cache
+F:\backeend\obj\Debug\net9.0\staticwebassets.development.json
+F:\backeend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+F:\backeend\obj\Debug\net9.0\workstat.2DF67B83.Up2Date
+F:\backeend\obj\Debug\net9.0\workstation-backend.dll
+F:\backeend\obj\Debug\net9.0\refint\workstation-backend.dll
+F:\backeend\obj\Debug\net9.0\workstation-backend.pdb
+F:\backeend\obj\Debug\net9.0\workstation-backend.genruntimeconfig.cache
+F:\backeend\obj\Debug\net9.0\ref\workstation-backend.dll
+H:\WebApi\backeend\bin\Debug\net9.0\testhost.dll
+H:\WebApi\backeend\bin\Debug\net9.0\testhost.exe
+H:\WebApi\backeend\bin\Debug\net9.0\appsettings.Development.json
+H:\WebApi\backeend\bin\Debug\net9.0\appsettings.json
+H:\WebApi\backeend\bin\Debug\net9.0\workstation-backend.staticwebassets.endpoints.json
+H:\WebApi\backeend\bin\Debug\net9.0\NUnit3.TestAdapter.pdb
+H:\WebApi\backeend\bin\Debug\net9.0\nunit.engine.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nunit.engine.api.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nunit.engine.core.dll
+H:\WebApi\backeend\bin\Debug\net9.0\testcentric.engine.metadata.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NUnit3.TestAdapter.dll
+H:\WebApi\backeend\bin\Debug\net9.0\workstation-backend.exe
+H:\WebApi\backeend\bin\Debug\net9.0\BCrypt.Net-Next.dll
+H:\WebApi\backeend\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Castle.Core.dll
+H:\WebApi\backeend\bin\Debug\net9.0\FluentValidation.dll
+H:\WebApi\backeend\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+H:\WebApi\backeend\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Google.Protobuf.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Humanizer.dll
+H:\WebApi\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+H:\WebApi\backeend\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+H:\WebApi\backeend\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.ApplicationInsights.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Build.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.Telemetry.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.VSTestBridge.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Testing.Platform.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.Testing.Extensions.MSBuild.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.AdapterUtilities.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.CoreUtilities.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+H:\WebApi\backeend\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Mono.TextTemplating.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Moq.dll
+H:\WebApi\backeend\bin\Debug\net9.0\MySql.Data.dll
+H:\WebApi\backeend\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Newtonsoft.Json.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.Common.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.Configuration.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.Frameworks.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.LibraryModel.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.Packaging.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.ProjectModel.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.Protocol.dll
+H:\WebApi\backeend\bin\Debug\net9.0\NuGet.Versioning.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nunit.framework.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nunit.framework.legacy.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\WebApi\backeend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.CodeDom.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Composition.Convention.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Composition.Hosting.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Composition.Runtime.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Composition.TypedParts.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Security.Permissions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\System.Windows.Extensions.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ZstdSharp.dll
+H:\WebApi\backeend\bin\Debug\net9.0\af\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ar\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\az\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\bg\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\da\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\el\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fa\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\he\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\hr\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\hu\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\hy\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\id\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\is\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ku\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\lv\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\mt\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nb\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\nl\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ro\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\sk\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\sl\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\sr\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\sv\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\uk\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\vi\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Extensions.Telemetry.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Platform.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+H:\WebApi\backeend\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+H:\WebApi\backeend\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+H:\WebApi\backeend\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+H:\WebApi\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+H:\WebApi\backeend\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+H:\WebApi\backeend\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.csproj.AssemblyReference.cache
+H:\WebApi\backeend\obj\Debug\net9.0\rpswa.dswa.cache.json
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.GeneratedMSBuildEditorConfig.editorconfig
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.gentestingplatformentrypointinputcache.cache
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.genautoregisteredextensionsinputcache.cache
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfoInputs.cache
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.AssemblyInfo.cs
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.csproj.CoreCompileInputs.cache
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cs
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.MvcApplicationPartsAssemblyInfo.cache
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.sourcelink.json
+H:\WebApi\backeend\obj\Debug\net9.0\rjimswa.dswa.cache.json
+H:\WebApi\backeend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+H:\WebApi\backeend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+H:\WebApi\backeend\obj\Debug\net9.0\scopedcss\bundle\workstation-backend.styles.css
+H:\WebApi\backeend\obj\Debug\net9.0\staticwebassets.build.json
+H:\WebApi\backeend\obj\Debug\net9.0\staticwebassets.build.json.cache
+H:\WebApi\backeend\obj\Debug\net9.0\staticwebassets.development.json
+H:\WebApi\backeend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+H:\WebApi\backeend\obj\Debug\net9.0\workstat.2DF67B83.Up2Date
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.dll
+H:\WebApi\backeend\obj\Debug\net9.0\refint\workstation-backend.dll
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.pdb
+H:\WebApi\backeend\bin\Debug\net9.0\workstation-backend.deps.json
+H:\WebApi\backeend\bin\Debug\net9.0\workstation-backend.runtimeconfig.json
+H:\WebApi\backeend\bin\Debug\net9.0\workstation-backend.dll
+H:\WebApi\backeend\bin\Debug\net9.0\workstation-backend.pdb
+H:\WebApi\backeend\obj\Debug\net9.0\workstation-backend.genruntimeconfig.cache
+H:\WebApi\backeend\obj\Debug\net9.0\ref\workstation-backend.dll
