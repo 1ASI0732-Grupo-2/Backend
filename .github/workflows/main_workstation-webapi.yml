@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - WorkStation-webapi
+name: Build and deploy ASP.Net Core app to Azure Web App - workstation-arqui
 
 on:
   push:
@@ -48,12 +48,15 @@ jobs:
         with:
           name: .net-app
 
-      # 🚀 Deploy usando Publish Profile (sin necesidad de azure/login)
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "WorkStation-webapi"
+          app-name: "workstation-arqui"
           slot-name: "production"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
