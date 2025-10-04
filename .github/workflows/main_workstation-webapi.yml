@@ -48,17 +48,12 @@ jobs:
         with:
           name: .net-app
 
-      # 🔐 Autenticación en Azure
-      - name: Login to Azure
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-      # 🚀 Despliegue al App Service
+      # 🚀 Deploy usando Publish Profile (sin necesidad de azure/login)
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: "WorkStation-webapi"
           slot-name: "production"
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
