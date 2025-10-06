@@ -22,7 +22,7 @@ public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : 
     }
 
     /// <inheritdoc />
-    public async Task<TEntity?> FindByIdAsync(Guid id)
+    public virtual async Task<TEntity?> FindByIdAsync(Guid id)
     {
         return await Context.Set<TEntity>().FindAsync(id);
     }

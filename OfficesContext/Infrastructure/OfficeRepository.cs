@@ -23,9 +23,19 @@ public class OfficeRepository(WorkstationContext context) : BaseRepository<Offic
         return await context.Set<Office>().FirstOrDefaultAsync(office => office.Location == location);
     }
     public new async Task<IEnumerable<Office>> ListAsync()
-{
-    return await Context.Offices
-        .Include(o => o.Services)
-        .ToListAsync();
-}
+    {
+        return await Context.Offices
+            .Include(o => o.Services)
+            .ToListAsync();
+    }
+
+    /// <summary>
+    /// Obtiene una oficina por ID incluyendo sus servicios.
+    /// </summary>
+    public override async Task<Office?> FindByIdAsync(Guid id)
+    {
+        return await Context.Offices
+            .Include(o => o.Services)
+            .FirstOrDefaultAsync(o => o.Id == id);
+    }
 }
