@@ -134,6 +134,10 @@ builder.Services.AddScoped<IHashService, HashService>();
 builder.Services.AddScoped<IJwtEncryptService, JwtEncryptService>();
 builder.Services.AddValidatorsFromAssemblyContaining<UserValidator>();
 
+builder.Logging.AddConsole();
+builder.Logging.SetMinimumLevel(LogLevel.Debug);
+
+
 
 builder.Services.AddCors(options =>
 
