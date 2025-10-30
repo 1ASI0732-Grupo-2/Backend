@@ -1,0 +1,20 @@
+namespace workstation_backend.ContractsContext.Interface.Resources;
+
+public record class ContractResource(Guid Id,
+    Guid OfficeId,
+    Guid OwnerId,
+    Guid RenterId,
+    string Description,
+    DateOnly StartDate,
+    DateOnly EndDate,
+    decimal BaseAmount,
+    decimal LateFee,
+    decimal InterestRate,
+    string Status,
+    DateTime CreatedAt,
+    DateTime? ActivatedAt,
+    DateTime? TerminatedAt,
+    List<ClauseResource> Clauses,
+    List<SignatureResource> Signatures,
+    List<CompensationResource> Compensations,
+    PaymentReceiptResource? Receipt);

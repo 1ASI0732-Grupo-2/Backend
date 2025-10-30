@@ -11,9 +11,8 @@ public interface IContractCommandService
     Task<Clause> Handle(AddClauseCommand command);
     Task<Compensation> Handle(AddCompensationCommand command);
     Task<Guid> Handle(ActivateContractCommand command);
-
     Task<Contract> Handle(SignContractCommand command);
     Task<PaymentReceipt> Handle(UpdateReceiptCommand command);
-
+    Task<Contract> Handle(FinishContractCommand command);
 
 }

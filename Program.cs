@@ -25,6 +25,14 @@ using workstation_backend.Shared.Infrastructure.Attribute.Middlewares;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using workstation_backend.ContractsContext.Domain;
+using workstation_backend.ContractsContext.Infrastructure;
+using workstation_backend.ContractsContext.Domain.Services;
+using workstation_backend.ContractsContext.Application.QueriesServices;
+using workstation_backend.ContractsContext.Application.CommandServices;
+using workstation_backend.ContractsContext.Domain.Models.Validators;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using workstation_backend.ContractsContext.Application.EventServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,7 +71,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Workstation API",
-        Version = "v1",
+        Version = "v2",
         Description = "API para gestión de estaciones de trabajo",
         Contact = new OpenApiContact
         {
@@ -134,6 +142,17 @@ builder.Services.AddScoped<IHashService, HashService>();
 builder.Services.AddScoped<IJwtEncryptService, JwtEncryptService>();
 builder.Services.AddValidatorsFromAssemblyContaining<UserValidator>();
 
+builder.Services.AddScoped<IContractRepository, ContractRepository>();
+builder.Services.AddScoped<IContractCommandService, ContractCommandService>();
+builder.Services.AddScoped<IContractQueryService, ContractQueryService>();
+builder.Services.AddScoped<IContractEventService, ContractEventService>();
+builder.Services.AddValidatorsFromAssemblyContaining<AddClauseCommandValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<AddCompensationCommandValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateContractCommandValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<FinishContractCommandValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<SignContractCommandValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateReceiptCommandValidator>();
+
 builder.Logging.AddConsole();
 builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
@@ -158,9 +177,6 @@ builder.Services.AddCors(options =>
     });
 
 });
-
- 
-
 
 var app = builder.Build();
 app.UseMiddleware<ErrorHandlerMiddleware>();

@@ -38,8 +38,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="ContractsContext\Interface\Resources\" />
-      <Folder Include="ContractsContext\Interface\Transform\" />
       <Folder Include="Shared\Application\" />
       <Folder Include="Shared\Presentation\" />
     </ItemGroup>
