@@ -47,4 +47,13 @@ public class UserRepository(WorkstationContext context)
     {
         return await Context.Set<User>().ToListAsync();
     }
+
+    public async Task<UserRole?> GetUserRoleByIdAsync(Guid userId)
+    {
+        var user = await Context.Set<User>()
+        .AsNoTracking()
+        .FirstOrDefaultAsync(u => u.Id == userId);
+
+        return user?.Role;
+    }
 }

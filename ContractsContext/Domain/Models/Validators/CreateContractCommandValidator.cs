@@ -1,22 +1,29 @@
 using System;
 using FluentValidation;
 using workstation_backend.ContractsContext.Domain.Models.Commands;
+using workstation_backend.UserContext.Domain;
+using workstation_backend.UserContext.Domain.Models.Entities;
 
 namespace workstation_backend.ContractsContext.Domain.Models.Validators;
 
 public class CreateContractCommandValidator : AbstractValidator<CreateContractCommand>
 {
-    public CreateContractCommandValidator()
+    private readonly IUserRepository _userRepository;
+    public CreateContractCommandValidator(IUserRepository userRepository)
     {
+        _userRepository = userRepository;
         RuleFor(x => x.OfficeId)
             .NotEmpty().WithMessage("El ID de la oficina es requerido.");
+            
 
         RuleFor(x => x.OwnerId)
-            .NotEmpty().WithMessage("El ID del propietario es requerido.");
+            .NotEmpty().WithMessage("El ID del propietario es requerido.")
+            .MustAsync(BeValidLessor).WithMessage("El ID del propietario no corresponde a un arrendador válido.");
 
         RuleFor(x => x.RenterId)
             .NotEmpty().WithMessage("El ID del arrendatario es requerido.")
-            .NotEqual(x => x.OwnerId).WithMessage("El propietario y el arrendatario no pueden ser la misma persona.");
+            .NotEqual(x => x.OwnerId).WithMessage("El propietario y el arrendatario no pueden ser la misma persona.")
+            .MustAsync(BeValidSeeker).WithMessage("El ID del arrendatario no corresponde a un buscador válido.");
 
         RuleFor(x => x.Description)
             .NotEmpty().WithMessage("La descripción es requerida.")
@@ -46,4 +53,16 @@ public class CreateContractCommandValidator : AbstractValidator<CreateContractCo
         var today = DateOnly.FromDateTime(DateTime.Now);
         return date >= today;
     }
+    private async Task<bool> BeValidLessor(Guid ownerId, CancellationToken token)
+    {
+        var role = await _userRepository.GetUserRoleByIdAsync(ownerId);
+        return role == UserRole.Lessor;
+    }
+
+    private async Task<bool> BeValidSeeker(Guid renterId, CancellationToken token)
+    {
+        var role = await _userRepository.GetUserRoleByIdAsync(renterId);
+        return role == UserRole.Seeker;
+    }
+
 }

@@ -30,4 +30,6 @@ public interface IUserRepository : IBaseRepository<User>
     /// <param name="dni">Número de documento nacional de identidad.</param>
     /// <returns>El usuario correspondiente o null si no se encuentra.</returns>
     Task<User?> GetByDniAsync(string dni);
+
+    Task<UserRole?> GetUserRoleByIdAsync(Guid userId);
 }

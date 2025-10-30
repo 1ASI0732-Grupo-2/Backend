@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using workstation_backend.Shared.Infrastructure.Persistence.Configuration;
 
@@ -10,9 +11,11 @@ using workstation_backend.Shared.Infrastructure.Persistence.Configuration;
 namespace workstation_backend.Migrations
 {
     [DbContext(typeof(WorkstationContext))]
-    partial class WorkstationContextModelSnapshot : ModelSnapshot
+    [Migration("20251030183347_InitLocal")]
+    partial class InitLocal
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
