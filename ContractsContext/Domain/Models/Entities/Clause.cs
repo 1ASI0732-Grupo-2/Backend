@@ -4,7 +4,7 @@ namespace workstation_backend.ContractsContext.Domain.Models.Entities;
 
 public class Clause
 {
-    public Guid Id { get; private set; } = Guid.NewGuid();
+    public Guid Id { get; private set; }
     public Guid ContractId { get; private set; }
     public string Name { get; private set; } = string.Empty;
     public string Content { get; private set; } = string.Empty;

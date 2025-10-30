@@ -5,7 +5,7 @@ namespace workstation_backend.ContractsContext.Domain.Models.Entities;
 
 public class PaymentReceipt
 {
-    public Guid Id { get; private set; } = Guid.NewGuid();
+    public Guid Id { get; private set; } 
     public Guid ContractId { get; private set; }
     public string ReceiptNumber { get; private set; } = string.Empty;
     public decimal BaseAmount { get; private set; }

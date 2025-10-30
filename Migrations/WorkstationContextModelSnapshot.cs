@@ -26,22 +26,22 @@ namespace workstation_backend.Migrations
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime?>("ActivatedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime");
 
                     b.Property<decimal>("BaseAmount")
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("DATETIME");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("varchar(500)");
 
-                    b.Property<DateOnly>("EndDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("DATETIME");
 
                     b.Property<decimal>("InterestRate")
                         .HasPrecision(5, 2)
@@ -60,8 +60,8 @@ namespace workstation_backend.Migrations
                     b.Property<Guid>("RenterId")
                         .HasColumnType("char(36)");
 
-                    b.Property<DateOnly>("StartDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("DATETIME");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -69,7 +69,7 @@ namespace workstation_backend.Migrations
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("TerminatedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime");
 
                     b.HasKey("Id");
 
@@ -172,7 +172,7 @@ namespace workstation_backend.Migrations
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("DATETIME");
 
                     b.Property<Guid>("IssuerId")
                         .HasColumnType("char(36)");
@@ -219,7 +219,7 @@ namespace workstation_backend.Migrations
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime>("IssuedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime");
 
                     b.Property<string>("Notes")
                         .IsRequired()
@@ -237,7 +237,7 @@ namespace workstation_backend.Migrations
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime");
 
                     b.HasKey("Id");
 
@@ -265,7 +265,7 @@ namespace workstation_backend.Migrations
                         .HasColumnType("varchar(256)");
 
                     b.Property<DateTime>("SignedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime");
 
                     b.Property<Guid>("SignerId")
                         .HasColumnType("char(36)");

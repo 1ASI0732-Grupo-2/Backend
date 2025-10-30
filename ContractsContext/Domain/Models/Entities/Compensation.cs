@@ -5,7 +5,7 @@ namespace workstation_backend.ContractsContext.Domain.Models.Entities;
 
 public class Compensation
 {
-    public Guid Id { get; private set; } = Guid.NewGuid();
+    public Guid Id { get; private set; }
     public Guid ContractId { get; private set; }
     public Guid IssuerId { get; private set; }
     public Guid ReceiverId { get; private set; }

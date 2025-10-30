@@ -48,9 +48,9 @@ public class CreateContractCommandValidator : AbstractValidator<CreateContractCo
             .LessThanOrEqualTo(100).WithMessage("La tasa de interés no puede exceder el 100%.");
     }
 
-    private bool BeValidDate(DateOnly date)
+    private bool BeValidDate(DateTime date)
     {
-        var today = DateOnly.FromDateTime(DateTime.Now);
+        var today = DateTime.UtcNow.Date;
         return date >= today;
     }
     private async Task<bool> BeValidLessor(Guid ownerId, CancellationToken token)

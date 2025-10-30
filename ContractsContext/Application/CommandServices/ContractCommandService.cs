@@ -94,7 +94,9 @@ IValidator<AddClauseCommand> addClauseValidator,
         );
 
         contract.AddClause(clause);
-        await _unitOfWork.CompleteAsync();
+        
+        await _contractRepository.SaveChangesAsync(); 
+
 
         var @event = new ClauseAddedEvent(
             contract.Id,

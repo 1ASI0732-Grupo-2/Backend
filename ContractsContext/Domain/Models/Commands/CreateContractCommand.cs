@@ -7,8 +7,8 @@ public record CreateContractCommand(
     Guid OwnerId,
     Guid RenterId,
     string Description,
-    DateOnly StartDate,
-    DateOnly EndDate,
+    DateTime StartDate,
+    DateTime EndDate,
     decimal BaseAmount,
     decimal LateFee,
     decimal InterestRate

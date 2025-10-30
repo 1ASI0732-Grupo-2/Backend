@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using workstation_backend.ContractsContext.Domain.Models.Entities;
 using workstation_backend.OfficesContext.Domain.Models.Entities;
 using workstation_backend.UserContext.Domain.Models.Entities;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace workstation_backend.Shared.Infrastructure.Persistence.Configuration;
 
@@ -24,6 +25,16 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
     {
         base.OnModelCreating(builder);
 
+        foreach (var entityType in builder.Model.GetEntityTypes())
+        {
+            foreach (var property in entityType.GetProperties())
+            {
+                if (property.ClrType == typeof(DateTime) || property.ClrType == typeof(DateTime?))
+                {
+                    property.SetColumnType("datetime");
+                }
+            }
+        }   
         // Office
         builder.Entity<Office>(entity =>
         {
@@ -143,8 +154,30 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
                 .HasMaxLength(50)
                 .IsRequired();
 
-            entity.Property(c => c.CreatedAt)
+            entity.Property(c => c.StartDate)
+                .HasColumnType("DATETIME")
                 .IsRequired();
+
+            entity.Property(c => c.EndDate)
+                .HasColumnType("DATETIME")
+                .IsRequired();
+
+            entity.Property(c => c.CreatedAt)
+                .HasColumnType("DATETIME")
+                .IsRequired();
+
+            // 🔥 CONFIGURAR BACKING FIELDS - ESTO ES LO CRÍTICO
+            var clausesNav = entity.Metadata.FindNavigation(nameof(Contract.Clauses));
+            clausesNav?.SetPropertyAccessMode(PropertyAccessMode.Field);
+            clausesNav?.SetField("_clauses");
+
+            var signaturesNav = entity.Metadata.FindNavigation(nameof(Contract.Signatures));
+            signaturesNav?.SetPropertyAccessMode(PropertyAccessMode.Field);
+            signaturesNav?.SetField("_signatures");
+
+            var compensationsNav = entity.Metadata.FindNavigation(nameof(Contract.Compensations));
+            compensationsNav?.SetPropertyAccessMode(PropertyAccessMode.Field);
+            compensationsNav?.SetField("_compensations");
 
             // Relaciones
             entity.HasMany(c => c.Clauses)
@@ -181,6 +214,9 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
 
             entity.HasKey(c => c.Id);
 
+            entity.Property(c => c.Id)
+                .ValueGeneratedOnAdd();
+
             entity.Property(c => c.ContractId)
                 .IsRequired();
 
@@ -207,6 +243,9 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
             entity.ToTable("PaymentReceipts");
 
             entity.HasKey(pr => pr.Id);
+
+            entity.Property(pr => pr.Id)
+                .ValueGeneratedOnAdd();
 
             entity.Property(pr => pr.ContractId)
                 .IsRequired();
@@ -251,6 +290,9 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
 
             entity.HasKey(s => s.Id);
 
+            entity.Property(s => s.Id)
+                .ValueGeneratedOnAdd();
+
             entity.Property(s => s.ContractId)
                 .IsRequired();
 
@@ -271,38 +313,42 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
         builder.Entity<Compensation>(entity =>
         {
             entity.ToTable("Compensations");
-        
-        entity.HasKey(c => c.Id);
 
-        entity.Property(c => c.ContractId)
-            .IsRequired();
+            entity.HasKey(c => c.Id);
+            
+            entity.Property(c => c.Id)
+                .ValueGeneratedOnAdd();
 
-        entity.Property(c => c.IssuerId)
-            .IsRequired();
+            entity.Property(c => c.ContractId)
+                .IsRequired();
 
-        entity.Property(c => c.ReceiverId)
-            .IsRequired();
+            entity.Property(c => c.IssuerId)
+                .IsRequired();
 
-        entity.Property(c => c.Amount)
-            .HasPrecision(18, 2)
-            .IsRequired();
+            entity.Property(c => c.ReceiverId)
+                .IsRequired();
 
-        entity.Property(c => c.Reason)
-            .HasMaxLength(500)
-            .IsRequired();
+            entity.Property(c => c.Amount)
+                .HasPrecision(18, 2)
+                .IsRequired();
 
-        entity.Property(c => c.Status)
-            .HasConversion<string>()
-            .HasMaxLength(50)
-            .IsRequired();
+            entity.Property(c => c.Reason)
+                .HasMaxLength(500)
+                .IsRequired();
 
-        entity.Property(c => c.CreatedAt)
-            .IsRequired();
+            entity.Property(c => c.Status)
+                .HasConversion<string>()
+                .HasMaxLength(50)
+                .IsRequired();
 
-        entity.HasIndex(c => c.ContractId);
-        entity.HasIndex(c => c.IssuerId);
-        entity.HasIndex(c => c.ReceiverId);
+            entity.Property(c => c.CreatedAt).HasColumnType("DATETIME")
+                .IsRequired();
+
+            entity.HasIndex(c => c.ContractId);
+            entity.HasIndex(c => c.IssuerId);
+            entity.HasIndex(c => c.ReceiverId);
         });
+
 
     }
 }

@@ -11,8 +11,8 @@ public class Contract
     public Guid RenterId { get; private set; }
 
     public string Description { get; private set; } = string.Empty;
-    public DateOnly StartDate { get; private set; }
-    public DateOnly EndDate { get; private set; }
+    public DateTime StartDate { get; private set; }
+    public DateTime EndDate { get; private set; }
 
     public decimal BaseAmount { get; private set; }
     public decimal LateFee { get; private set; }
@@ -34,7 +34,7 @@ public class Contract
 
     public PaymentReceipt? Receipt { get; private set; }
 
-    public Contract(Guid officeId, Guid ownerId, Guid renterId, string description, DateOnly startDate, DateOnly endDate, decimal baseAmount, decimal lateFee, decimal interestRate)
+    public Contract(Guid officeId, Guid ownerId, Guid renterId, string description, DateTime startDate, DateTime endDate, decimal baseAmount, decimal lateFee, decimal interestRate)
     {
         OfficeId = officeId;
         OwnerId = ownerId;

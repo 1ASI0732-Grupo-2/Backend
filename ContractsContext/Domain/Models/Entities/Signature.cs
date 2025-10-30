@@ -4,7 +4,7 @@ namespace workstation_backend.ContractsContext.Domain.Models.Entities;
 
 public class Signature
 {
-    public Guid Id { get; private set; } = Guid.NewGuid();
+    public Guid Id { get; private set; }
     public Guid ContractId { get; private set; }
     public Guid SignerId { get; private set; }
     public DateTime SignedAt { get; private set; } = DateTime.UtcNow;

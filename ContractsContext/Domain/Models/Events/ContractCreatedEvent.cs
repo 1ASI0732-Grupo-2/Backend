@@ -5,8 +5,8 @@ public record ContractCreatedEvent(
     Guid OfficeId,
     Guid OwnerId,
     Guid RenterId,
-    DateOnly StartDate,
-    DateOnly EndDate,
+    DateTime StartDate,
+    DateTime EndDate,
     decimal BaseAmount,
     DateTime OccurredAt
 );
