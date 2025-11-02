@@ -19,6 +19,7 @@ public class ContractsController(IContractCommandService contractCommandService,
     [HttpPost]
     public async Task<ActionResult<ContractResource>> CreateContract([FromBody] CreateContractResource resource)
     {
+        
         var command = CreateContractCommandAssembler.ToCommand(resource);
         var contract = await _contractCommandService.Handle(command);
         var contractResource = ContractResourceAssembler.ToResource(contract);
