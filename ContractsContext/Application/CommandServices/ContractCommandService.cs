@@ -9,217 +9,304 @@ using workstation_backend.ContractsContext.Domain.Models.Validators;
 using workstation_backend.ContractsContext.Domain.Services;
 using workstation_backend.Shared.Domain.Repositories;
 
-namespace workstation_backend.ContractsContext.Application.CommandServices;
-
-public class ContractCommandService(IContractRepository contractRepository, IUnitOfWork unitOfWork,
-IValidator<CreateContractCommand> createContractValidator,
-IValidator<AddClauseCommand> addClauseValidator,
-    IValidator<AddCompensationCommand> addCompensationValidator,
-    IValidator<SignContractCommand> signContractValidator,
-    IValidator<UpdateReceiptCommand> updateReceiptValidator,
-    IValidator<FinishContractCommand> finishContractValidator,
-    IContractEventService contractEventService) : IContractCommandService
+namespace workstation_backend.ContractsContext.Application.CommandServices
 {
-    private readonly IContractRepository _contractRepository =
-        contractRepository ?? throw new ArgumentNullException(nameof(contractRepository));
-    private readonly IUnitOfWork _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
-
-    private readonly IValidator<CreateContractCommand> _createContractValidator = createContractValidator;
-    private readonly IValidator<AddClauseCommand> _addClauseValidator = addClauseValidator;
-    private readonly IValidator<AddCompensationCommand> _addCompensationValidator = addCompensationValidator;
-    private readonly IValidator<SignContractCommand> _signContractValidator = signContractValidator;
-    private readonly IValidator<UpdateReceiptCommand> _updateReceiptValidator = updateReceiptValidator;
-    private readonly IValidator<FinishContractCommand> _finishContractValidator = finishContractValidator;    
-    
-    private readonly IContractEventService _contractEventService = 
-        contractEventService ?? throw new ArgumentNullException(nameof(contractEventService));
-
-    public async Task<Contract> Handle(CreateContractCommand command)
+    /// <summary>
+    /// Servicio encargado de procesar comandos relacionados a la creación, modificación
+    /// y finalización de contratos. 
+    /// 
+    /// Este servicio ejecuta validaciones, actualiza el estado del dominio, 
+    /// persiste los cambios y emite eventos correspondientes para otros bounded contexts.
+    /// </summary>
+    public class ContractCommandService : IContractCommandService
     {
-        var validationResult = await _createContractValidator.ValidateAsync(command);
-        if (!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
+        private readonly IContractRepository _contractRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        var activeContract = await _contractRepository.GetActiveContractByOfficeIdAsync(command.OfficeId);
-        if (activeContract != null)
-            throw new InvalidOperationException("Una misma oficina no puede tener dos contratos activos.");
+        private readonly IValidator<CreateContractCommand> _createContractValidator;
+        private readonly IValidator<AddClauseCommand> _addClauseValidator;
+        private readonly IValidator<AddCompensationCommand> _addCompensationValidator;
+        private readonly IValidator<SignContractCommand> _signContractValidator;
+        private readonly IValidator<UpdateReceiptCommand> _updateReceiptValidator;
+        private readonly IValidator<FinishContractCommand> _finishContractValidator;
 
-        var contract = new Contract(
-            command.OfficeId,
-            command.OwnerId,
-            command.RenterId,
-            command.Description,
-            command.StartDate,
-            command.EndDate,
-            command.BaseAmount,
-            command.LateFee,
-            command.InterestRate
-        );
+        private readonly IContractEventService _contractEventService;
 
-        await _contractRepository.AddAsync(contract);
-        await _unitOfWork.CompleteAsync();
+        /// <summary>
+        /// Inicializa una nueva instancia del servicio de comandos del dominio de contratos.
+        /// </summary>
+        public ContractCommandService(
+            IContractRepository contractRepository,
+            IUnitOfWork unitOfWork,
+            IValidator<CreateContractCommand> createContractValidator,
+            IValidator<AddClauseCommand> addClauseValidator,
+            IValidator<AddCompensationCommand> addCompensationValidator,
+            IValidator<SignContractCommand> signContractValidator,
+            IValidator<UpdateReceiptCommand> updateReceiptValidator,
+            IValidator<FinishContractCommand> finishContractValidator,
+            IContractEventService contractEventService)
+        {
+            _contractRepository = contractRepository ?? throw new ArgumentNullException(nameof(contractRepository));
+            _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
 
-         
-        var @event = new ContractCreatedEvent(
-        contract.Id,
-        contract.OfficeId,
-        contract.OwnerId,
-        contract.RenterId,
-        contract.StartDate,
-        contract.EndDate,
-        contract.BaseAmount,
-        DateTime.UtcNow
-        );
+            _createContractValidator = createContractValidator;
+            _addClauseValidator = addClauseValidator;
+            _addCompensationValidator = addCompensationValidator;
+            _signContractValidator = signContractValidator;
+            _updateReceiptValidator = updateReceiptValidator;
+            _finishContractValidator = finishContractValidator;
 
+            _contractEventService = contractEventService ?? throw new ArgumentNullException(nameof(contractEventService));
+        }
 
-        await _contractEventService.PublishAsync(@event);
+        /// <summary>
+        /// Maneja la creación de un nuevo contrato en el sistema.
+        /// </summary>
+        /// <param name="command">Comando que contiene los datos del contrato a crear.</param>
+        /// <returns>El contrato creado.</returns>
+        /// <exception cref="ValidationException">Si los datos suministrados no son válidos.</exception>
+        /// <exception cref="InvalidOperationException">Si la oficina ya posee un contrato activo.</exception>
+        public async Task<Contract> Handle(CreateContractCommand command)
+        {
+            var validationResult = await _createContractValidator.ValidateAsync(command);
+            if (!validationResult.IsValid) 
+                throw new ValidationException(validationResult.Errors);
 
-        return contract;
-    }
+            var activeContract = await _contractRepository.GetActiveContractByOfficeIdAsync(command.OfficeId);
+            if (activeContract != null)
+                throw new InvalidOperationException("Una misma oficina no puede tener dos contratos activos.");
 
-    public async Task<Clause> Handle(AddClauseCommand command)
-    {
+            var contract = new Contract(
+                command.OfficeId,
+                command.OwnerId,
+                command.RenterId,
+                command.Description,
+                command.StartDate,
+                command.EndDate,
+                command.BaseAmount,
+                command.LateFee,
+                command.InterestRate
+            );
 
-        var validationResult = await _addClauseValidator.ValidateAsync(command);
-        if (!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
+            await _contractRepository.AddAsync(contract);
+            await _unitOfWork.CompleteAsync();
 
-        var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-            ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            var @event = new ContractCreatedEvent(
+                contract.Id,
+                contract.OfficeId,
+                contract.OwnerId,
+                contract.RenterId,
+                contract.StartDate,
+                contract.EndDate,
+                contract.BaseAmount,
+                DateTime.UtcNow
+            );
 
-        var clause = new Clause(
-            command.ContractId,
-            command.Name,
-            command.Content,
-            command.Order,
-            command.Mandatory
-        );
+            await _contractEventService.PublishAsync(@event);
 
-        contract.AddClause(clause);
-        
-        await _contractRepository.SaveChangesAsync(); 
+            return contract;
+        }
 
+        /// <summary>
+        /// Maneja la adición de una cláusula a un contrato existente.
+        /// </summary>
+        /// <param name="command">Comando con los datos de la cláusula a agregar.</param>
+        /// <returns>La cláusula creada.</returns>
+        /// <exception cref="ValidationException">Si los datos del comando no son válidos.</exception>
+        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        public async Task<Clause> Handle(AddClauseCommand command)
+        {
+            var validationResult = await _addClauseValidator.ValidateAsync(command);
+            if (!validationResult.IsValid) 
+                throw new ValidationException(validationResult.Errors);
 
-        var @event = new ClauseAddedEvent(
-            contract.Id,
-            clause.Id,
-            clause.Name,
-            clause.Mandatory,
-            DateTime.UtcNow
-        );
-        await _contractEventService.PublishAsync(@event);
+            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
+                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
 
-        return clause;
-    }
+            var clause = new Clause(
+                command.ContractId,
+                command.Name,
+                command.Content,
+                command.Order,
+                command.Mandatory
+            );
 
-    public async Task<Compensation> Handle(AddCompensationCommand command)
-    {
-        var validationResult = await _addCompensationValidator.ValidateAsync(command);
-        if (!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
+            contract.AddClause(clause);
 
-        var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-            ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            await _contractRepository.SaveChangesAsync();
 
-        var compensation = new Compensation(
-            command.ContractId,
-            command.IssuerId,
-            command.ReceiverId,
-            command.Amount,
-            command.Reason
-        );
+            var @event = new ClauseAddedEvent(
+                contract.Id,
+                clause.Id,
+                clause.Name,
+                clause.Mandatory,
+                DateTime.UtcNow
+            );
 
-        contract.AddCompensation(compensation);
-        await _unitOfWork.CompleteAsync();
+            await _contractEventService.PublishAsync(@event);
 
-        return compensation;
-    }
+            return clause;
+        }
 
-    public async Task<Guid> Handle(ActivateContractCommand command)
-    {   
+        /// <summary>
+        /// Maneja la creación de una compensación económica vinculada a un contrato.
+        /// </summary>
+        /// <param name="command">Comando con los detalles de la compensación.</param>
+        /// <returns>La compensación creada.</returns>
+        /// <exception cref="ValidationException">Si el comando no es válido.</exception>
+        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        public async Task<Compensation> Handle(AddCompensationCommand command)
+        {
+            var validationResult = await _addCompensationValidator.ValidateAsync(command);
+            if (!validationResult.IsValid) 
+                throw new ValidationException(validationResult.Errors);
 
-        var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-            ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
+                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
 
-        contract.Activate();
-        await _unitOfWork.CompleteAsync();
-        var @event = new ContractActivatedEvent(
-            contract.Id,
-            contract.OfficeId,
-            DateTime.UtcNow
-        );
-        await _contractEventService.PublishAsync(@event);
+            var compensation = new Compensation(
+                command.ContractId,
+                command.IssuerId,
+                command.ReceiverId,
+                command.Amount,
+                command.Reason
+            );
 
-        return contract.Id;
-    }
+            contract.AddCompensation(compensation);
+            await _unitOfWork.CompleteAsync();
 
-    public async Task<Contract> Handle(SignContractCommand command)
-    {
-        var validationResult = await _signContractValidator.ValidateAsync(command);
-        if (!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
-        var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-            ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            return compensation;
+        }
 
-        var signature = new Signature(
-            command.ContractId,
-            command.SignerId,
-            command.SignatureHash
-        );
+        /// <summary>
+        /// Maneja la activación de un contrato.
+        /// </summary>
+        /// <param name="command">Comando con el identificador del contrato a activar.</param>
+        /// <returns>El ID del contrato activado.</returns>
+        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        public async Task<Guid> Handle(ActivateContractCommand command)
+        {
+            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
+                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
 
-        contract.AddSignature(signature);
-        await _unitOfWork.CompleteAsync();
+            contract.Activate();
+            await _unitOfWork.CompleteAsync();
 
-        var @event = new ContractSignedEvent(
-            contract.Id,
-            signature.SignerId,
-            signature.SignatureHash,
-            DateTime.UtcNow,
-            true
-        );
-        await _contractEventService.PublishAsync(@event);
-        return contract;
-    }
+            var @event = new ContractActivatedEvent(
+                contract.Id,
+                contract.OfficeId,
+                DateTime.UtcNow
+            );
 
-    public async Task<PaymentReceipt> Handle(UpdateReceiptCommand command)
-    {
-        var validationResult = await _updateReceiptValidator.ValidateAsync(command);
-        if (!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
-        var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-            ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            await _contractEventService.PublishAsync(@event);
 
-        if (contract.Receipt == null)
-            throw new InvalidOperationException("No hay recibo emitido para este contrato.");
+            return contract.Id;
+        }
 
-        contract.Receipt.UpdateWithCompensations(command.CompensationAdjustments, command.Notes);
-        await _unitOfWork.CompleteAsync();
+        /// <summary>
+        /// Maneja la firma de un contrato por un usuario.
+        /// </summary>
+        /// <param name="command">Comando con los datos de la firma.</param>
+        /// <returns>El contrato actualizado.</returns>
+        /// <exception cref="ValidationException">Si el comando no es válido.</exception>
+        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        public async Task<Contract> Handle(SignContractCommand command)
+        {
+            var validationResult = await _signContractValidator.ValidateAsync(command);
+            if (!validationResult.IsValid) 
+                throw new ValidationException(validationResult.Errors);
 
-        var @event = new ReceiptUpdatedEvent(
-            contract.Receipt.Id,
-            contract.Id,
-            contract.Receipt.CompensationAdjustments,
-            contract.Receipt.FinalAmount,
-            contract.Receipt.Notes,
-            DateTime.UtcNow
-        );
-        await _contractEventService.PublishAsync(@event);
+            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
+                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
 
-        return contract.Receipt;
-    }
+            var signature = new Signature(
+                command.ContractId,
+                command.SignerId,
+                command.SignatureHash
+            );
 
-    public async Task<Contract> Handle(FinishContractCommand command)
-    {
-        var validationResult = await _finishContractValidator.ValidateAsync(command);
-        if (!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
-        var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-            ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            contract.AddSignature(signature);
+            await _unitOfWork.CompleteAsync();
 
-        contract.Terminate();
-        await _unitOfWork.CompleteAsync();
-        var @event = new ContractFinishedEvent(
-            contract.Id,
-            contract.OfficeId,
-            DateTime.UtcNow,
-            command.Reason
-        );
-        await _contractEventService.PublishAsync(@event);
+            var @event = new ContractSignedEvent(
+                contract.Id,
+                signature.SignerId,
+                signature.SignatureHash,
+                DateTime.UtcNow,
+                true
+            );
 
-        return contract;
+            await _contractEventService.PublishAsync(@event);
+
+            return contract;
+        }
+
+        /// <summary>
+        /// Maneja la actualización del recibo de pago de un contrato.
+        /// </summary>
+        /// <param name="command">Comando con los ajustes y notas del recibo.</param>
+        /// <returns>El recibo actualizado.</returns>
+        /// <exception cref="ValidationException">Si el comando no es válido.</exception>
+        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        /// <exception cref="InvalidOperationException">Si el contrato no tiene un recibo emitido.</exception>
+        public async Task<PaymentReceipt> Handle(UpdateReceiptCommand command)
+        {
+            var validationResult = await _updateReceiptValidator.ValidateAsync(command);
+            if (!validationResult.IsValid) 
+                throw new ValidationException(validationResult.Errors);
+
+            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
+                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+
+            if (contract.Receipt == null)
+                throw new InvalidOperationException("No hay recibo emitido para este contrato.");
+
+            contract.Receipt.UpdateWithCompensations(command.CompensationAdjustments, command.Notes);
+            await _unitOfWork.CompleteAsync();
+
+            var @event = new ReceiptUpdatedEvent(
+                contract.Receipt.Id,
+                contract.Id,
+                contract.Receipt.CompensationAdjustments,
+                contract.Receipt.FinalAmount,
+                contract.Receipt.Notes,
+                DateTime.UtcNow
+            );
+
+            await _contractEventService.PublishAsync(@event);
+
+            return contract.Receipt;
+        }
+
+        /// <summary>
+        /// Maneja la finalización de un contrato.
+        /// </summary>
+        /// <param name="command">Comando con el motivo de finalización.</param>
+        /// <returns>El contrato finalizado.</returns>
+        /// <exception cref="ValidationException">Si el comando no es válido.</exception>
+        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        public async Task<Contract> Handle(FinishContractCommand command)
+        {
+            var validationResult = await _finishContractValidator.ValidateAsync(command);
+            if (!validationResult.IsValid) 
+                throw new ValidationException(validationResult.Errors);
+
+            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
+                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+
+            contract.Terminate();
+            await _unitOfWork.CompleteAsync();
+
+            var @event = new ContractFinishedEvent(
+                contract.Id,
+                contract.OfficeId,
+                DateTime.UtcNow,
+                command.Reason
+            );
+
+            await _contractEventService.PublishAsync(@event);
+
+            return contract;
+        }
     }
 }
