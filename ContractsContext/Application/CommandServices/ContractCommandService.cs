@@ -69,7 +69,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         public async Task<Contract> Handle(CreateContractCommand command)
         {
             var validationResult = await _createContractValidator.ValidateAsync(command);
-            if (!validationResult.IsValid) 
+            if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
             var activeContract = await _contractRepository.GetActiveContractByOfficeIdAsync(command.OfficeId);
@@ -117,7 +117,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         public async Task<Clause> Handle(AddClauseCommand command)
         {
             var validationResult = await _addClauseValidator.ValidateAsync(command);
-            if (!validationResult.IsValid) 
+            if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
             var contract = await _contractRepository.GetByIdAsync(command.ContractId)
@@ -158,7 +158,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         public async Task<Compensation> Handle(AddCompensationCommand command)
         {
             var validationResult = await _addCompensationValidator.ValidateAsync(command);
-            if (!validationResult.IsValid) 
+            if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
             var contract = await _contractRepository.GetByIdAsync(command.ContractId)
@@ -212,33 +212,118 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
         public async Task<Contract> Handle(SignContractCommand command)
         {
-            var validationResult = await _signContractValidator.ValidateAsync(command);
-            if (!validationResult.IsValid) 
-                throw new ValidationException(validationResult.Errors);
+            Console.WriteLine($"\n{'=' * 60}");
+            Console.WriteLine("INICIO SignContractCommand");
+            Console.WriteLine($"{'=' * 60}");
+            Console.WriteLine($"📥 ContractId: {command.ContractId}");
+            Console.WriteLine($"📥 SignerId: {command.SignerId}");
+            Console.WriteLine($"📥 SignatureHash: {command.SignatureHash}");
 
-            var contract = await _contractRepository.GetByIdAsync(command.ContractId)
-                ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+            try
+            {
+                // VALIDACIÓN
+                Console.WriteLine("\n🔍 Iniciando validación...");
+                var validationResult = await _signContractValidator.ValidateAsync(command);
 
-            var signature = new Signature(
-                command.ContractId,
-                command.SignerId,
-                command.SignatureHash
-            );
+                if (!validationResult.IsValid)
+                {
+                    Console.WriteLine("❌ Validación FALLIDA:");
+                    foreach (var error in validationResult.Errors)
+                    {
+                        Console.WriteLine($"   - {error.PropertyName}: {error.ErrorMessage}");
+                    }
+                    throw new ValidationException(validationResult.Errors);
+                }
+                Console.WriteLine("✅ Validación OK");
 
-            contract.AddSignature(signature);
-            await _unitOfWork.CompleteAsync();
+                // OBTENER CONTRATO
+                Console.WriteLine($"\n📂 Obteniendo contrato {command.ContractId}...");
+                var contract = await _contractRepository.GetByIdAsync(command.ContractId);
 
-            var @event = new ContractSignedEvent(
-                contract.Id,
-                signature.SignerId,
-                signature.SignatureHash,
-                DateTime.UtcNow,
-                true
-            );
+                if (contract == null)
+                {
+                    Console.WriteLine($"❌ Contrato {command.ContractId} NO ENCONTRADO");
+                    throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+                }
 
-            await _contractEventService.PublishAsync(@event);
+                Console.WriteLine("✅ Contrato encontrado:");
+                Console.WriteLine($"   Id: {contract.Id}");
+                Console.WriteLine($"   Status: {contract.Status}");
+                Console.WriteLine($"   OwnerId: {contract.OwnerId}");
+                Console.WriteLine($"   RenterId: {contract.RenterId}");
 
-            return contract;
+                // VERIFICAR COLECCIONES
+                Console.WriteLine($"\n🔍 Verificando colecciones:");
+                Console.WriteLine($"   Signatures: {(contract.Signatures == null ? "NULL" : $"Count={contract.Signatures.Count}")}");
+                Console.WriteLine($"   Clauses: {(contract.Clauses == null ? "NULL" : $"Count={contract.Clauses.Count}")}");
+                Console.WriteLine($"   Compensations: {(contract.Compensations == null ? "NULL" : $"Count={contract.Compensations.Count}")}");
+
+                // CREAR FIRMA
+                Console.WriteLine($"\n🖊️ Creando nueva firma...");
+                var signature = new Signature(
+                    command.ContractId,
+                    command.SignerId,
+                    command.SignatureHash
+                );
+                Console.WriteLine($"✅ Firma creada:");
+                Console.WriteLine($"   Id: {signature.Id}");
+                Console.WriteLine($"   SignerId: {signature.SignerId}");
+                Console.WriteLine($"   ContractId: {signature.ContractId}");
+
+                // AGREGAR FIRMA AL CONTRATO
+                Console.WriteLine($"\n➕ Agregando firma al contrato...");
+                Console.WriteLine($"   Antes de AddSignature - Signatures count: {contract.Signatures?.Count ?? 0}");
+
+                contract.AddSignature(signature);
+
+                Console.WriteLine($"   Después de AddSignature - Signatures count: {contract.Signatures?.Count ?? 0}");
+                Console.WriteLine("✅ Firma agregada al contrato");
+
+                // GUARDAR
+                Console.WriteLine($"\n💾 Guardando cambios en la base de datos...");
+                await _unitOfWork.CompleteAsync();
+                Console.WriteLine("✅ Cambios guardados");
+
+                // PUBLICAR EVENTO
+                Console.WriteLine($"\n📢 Publicando evento ContractSignedEvent...");
+                var @event = new ContractSignedEvent(
+                    contract.Id,
+                    signature.SignerId,
+                    signature.SignatureHash,
+                    DateTime.UtcNow,
+                    true
+                );
+                await _contractEventService.PublishAsync(@event);
+                Console.WriteLine("✅ Evento publicado");
+
+                Console.WriteLine($"\n{'=' * 60}");
+                Console.WriteLine("FIN SignContractCommand - SUCCESS");
+                Console.WriteLine($"{'=' * 60}\n");
+
+                return contract;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"\n{'=' * 60}");
+                Console.WriteLine("❌❌❌ EXCEPCIÓN EN SignContractCommand ❌❌❌");
+                Console.WriteLine($"{'=' * 60}");
+                Console.WriteLine($"Tipo: {ex.GetType().Name}");
+                Console.WriteLine($"Mensaje: {ex.Message}");
+                Console.WriteLine($"\nStack Trace:");
+                Console.WriteLine(ex.StackTrace);
+
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"\n--- Inner Exception ---");
+                    Console.WriteLine($"Tipo: {ex.InnerException.GetType().Name}");
+                    Console.WriteLine($"Mensaje: {ex.InnerException.Message}");
+                    Console.WriteLine($"Stack Trace:");
+                    Console.WriteLine(ex.InnerException.StackTrace);
+                }
+
+                Console.WriteLine($"{'=' * 60}\n");
+                throw;
+            }
         }
 
         /// <summary>
@@ -252,7 +337,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         public async Task<PaymentReceipt> Handle(UpdateReceiptCommand command)
         {
             var validationResult = await _updateReceiptValidator.ValidateAsync(command);
-            if (!validationResult.IsValid) 
+            if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
             var contract = await _contractRepository.GetByIdAsync(command.ContractId)
@@ -288,7 +373,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         public async Task<Contract> Handle(FinishContractCommand command)
         {
             var validationResult = await _finishContractValidator.ValidateAsync(command);
-            if (!validationResult.IsValid) 
+            if (!validationResult.IsValid)
                 throw new ValidationException(validationResult.Errors);
 
             var contract = await _contractRepository.GetByIdAsync(command.ContractId)
