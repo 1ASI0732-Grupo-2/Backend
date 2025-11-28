@@ -93,8 +93,6 @@ public class Contract
 
     public void Activate()
     {
-        if (Status != ContractStatus.PendingSignatures)
-            throw new InvalidOperationException("El contrato debe estar pendiente de firmas.");
 
         var ownerSigned = Signatures.Any(s => s.SignerId == OwnerId);
         var renterSigned = Signatures.Any(s => s.SignerId == RenterId);
