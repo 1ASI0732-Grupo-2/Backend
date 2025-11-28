@@ -1,5 +1,4 @@
 using System;
-
 namespace workstation_backend.ContractsContext.Domain.Models.Entities
 {
     /// <summary>
@@ -12,27 +11,27 @@ namespace workstation_backend.ContractsContext.Domain.Models.Entities
         /// Identificador único de la firma.
         /// </summary>
         public Guid Id { get; private set; }
-
+        
         /// <summary>
         /// Identificador del contrato al cual pertenece esta firma.
         /// </summary>
         public Guid ContractId { get; private set; }
-
+        
         /// <summary>
         /// Identificador del usuario que realizó la firma.
         /// </summary>
         public Guid SignerId { get; private set; }
-
+        
         /// <summary>
         /// Fecha y hora en la que se registró la firma.
         /// </summary>
         public DateTime SignedAt { get; private set; } = DateTime.UtcNow;
-
+        
         /// <summary>
         /// Hash o representación encriptada de la firma digital.
         /// </summary>
         public string SignatureHash { get; private set; } = string.Empty;
-
+        
         /// <summary>
         /// Crea una nueva firma para un contrato específico.
         /// </summary>
@@ -41,11 +40,16 @@ namespace workstation_backend.ContractsContext.Domain.Models.Entities
         /// <param name="signatureHash">Hash de la firma digital.</param>
         public Signature(Guid contractId, Guid signerId, string signatureHash)
         {
+            Id = Guid.NewGuid();  // ✅ AGREGADO
             ContractId = contractId;
             SignerId = signerId;
             SignatureHash = signatureHash;
+            SignedAt = DateTime.UtcNow;  // ✅ Mejor ponerlo aquí también
         }
-
+        
+        /// <summary>
+        /// Constructor sin parámetros para Entity Framework
+        /// </summary>
         private Signature() { }
     }
 }

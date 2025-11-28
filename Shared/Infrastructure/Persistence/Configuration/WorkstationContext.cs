@@ -34,7 +34,7 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
                     property.SetColumnType("datetime");
                 }
             }
-        }   
+        }
         // Office
         builder.Entity<Office>(entity =>
         {
@@ -287,12 +287,10 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
         {
 
             entity.ToTable("Signatures");
-
             entity.HasKey(s => s.Id);
 
             entity.Property(s => s.Id)
-                .ValueGeneratedOnAdd();
-
+                .ValueGeneratedOnAdd(); 
             entity.Property(s => s.ContractId)
                 .IsRequired();
 
@@ -315,7 +313,7 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
             entity.ToTable("Compensations");
 
             entity.HasKey(c => c.Id);
-            
+
             entity.Property(c => c.Id)
                 .ValueGeneratedOnAdd();
 
