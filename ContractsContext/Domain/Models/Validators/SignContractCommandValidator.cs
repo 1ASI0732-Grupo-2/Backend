@@ -19,7 +19,7 @@ public class SignContractCommandValidator: AbstractValidator<SignContractCommand
         RuleFor(x => x.SignatureHash)
             .NotEmpty()
             .WithMessage("El hash de la firma es requerido.")
-            .MinimumLength(32)
+            .MinimumLength(8)
             .WithMessage("El hash de la firma debe tener al menos 32 caracteres.")
             .MaximumLength(256)
             .WithMessage("El hash de la firma no puede exceder los 256 caracteres.");
