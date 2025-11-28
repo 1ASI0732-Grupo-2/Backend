@@ -228,51 +228,94 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
                     throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
                 }
 
-                // ✅ VERIFICAR COLECCIONES ANTES DE CONTINUAR
+                // VERIFICAR ESTADO DEL CONTRATO
                 if (contract.Signatures == null)
                 {
-                    throw new InvalidOperationException(
-                        $"❌ DIAGNÓSTICO: contract.Signatures es NULL para ContractId={contract.Id}. " +
-                        $"Status={contract.Status}, OwnerId={contract.OwnerId}, RenterId={contract.RenterId}. " +
-                        $"El contrato no se cargó correctamente desde la base de datos."
-                    );
+                    throw new InvalidOperationException("❌ contract.Signatures es NULL");
                 }
 
                 if (contract.Clauses == null)
                 {
+                    throw new InvalidOperationException("❌ contract.Clauses es NULL");
+                }
+
+                if (contract.Compensations == null)
+                {
+                    throw new InvalidOperationException("❌ contract.Compensations es NULL");
+                }
+
+                // CREAR FIRMA
+                Signature signature;
+                try
+                {
+                    signature = new Signature(
+                        command.ContractId,
+                        command.SignerId,
+                        command.SignatureHash
+                    );
+                }
+                catch (Exception ex)
+                {
+                    throw new InvalidOperationException($"❌ Error al crear Signature: {ex.Message}", ex);
+                }
+
+                // Verificar que la firma se creó correctamente
+                if (signature == null)
+                {
+                    throw new InvalidOperationException("❌ La firma se creó pero es null");
+                }
+
+                if (signature.Id == Guid.Empty)
+                {
+                    throw new InvalidOperationException("❌ La firma se creó pero Id = Guid.Empty");
+                }
+
+                // AGREGAR FIRMA AL CONTRATO
+                try
+                {
+                    contract.AddSignature(signature);
+                }
+                catch (Exception ex)
+                {
                     throw new InvalidOperationException(
-                        $"❌ DIAGNÓSTICO: contract.Clauses es NULL para ContractId={contract.Id}. " +
-                        $"El contrato no se cargó correctamente desde la base de datos."
+                        $"❌ Error en contract.AddSignature(). " +
+                        $"Signatures.Count antes={contract.Signatures?.Count ?? -1}. " +
+                        $"Error: {ex.Message}",
+                        ex
                     );
                 }
 
-                // CREAR Y AGREGAR FIRMA
-                var signature = new Signature(
-                    command.ContractId,
-                    command.SignerId,
-                    command.SignatureHash
-                );
-
-                contract.AddSignature(signature);
-
                 // GUARDAR
-                await _unitOfWork.CompleteAsync();
+                try
+                {
+                    await _unitOfWork.CompleteAsync();
+                }
+                catch (Exception ex)
+                {
+                    throw new InvalidOperationException($"❌ Error al guardar (UnitOfWork.CompleteAsync): {ex.Message}", ex);
+                }
 
                 // PUBLICAR EVENTO
-                var @event = new ContractSignedEvent(
-                    contract.Id,
-                    signature.SignerId,
-                    signature.SignatureHash,
-                    DateTime.UtcNow,
-                    true
-                );
-                await _contractEventService.PublishAsync(@event);
+                try
+                {
+                    var @event = new ContractSignedEvent(
+                        contract.Id,
+                        signature.SignerId,
+                        signature.SignatureHash,
+                        DateTime.UtcNow,
+                        true
+                    );
+                    await _contractEventService.PublishAsync(@event);
+                }
+                catch (Exception ex)
+                {
+                    throw new InvalidOperationException($"❌ Error al publicar evento: {ex.Message}", ex);
+                }
 
                 return contract;
             }
             catch (Exception ex)
             {
-                // ✅ Propagar el mensaje detallado
                 throw new Exception(
                     $"Error al firmar contrato. ContractId={command.ContractId}, SignerId={command.SignerId}. " +
                     $"Detalle: {ex.Message}",
