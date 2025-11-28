@@ -121,65 +121,19 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
         builder.Entity<Contract>(entity =>
         {
             entity.ToTable("Contracts");
-
             entity.HasKey(c => c.Id);
 
-            entity.Property(c => c.OfficeId)
-                .IsRequired();
-
-            entity.Property(c => c.OwnerId)
-                .IsRequired();
-
-            entity.Property(c => c.RenterId)
-                .IsRequired();
-
-            entity.Property(c => c.Description)
-                .HasMaxLength(500)
-                .IsRequired();
-
-            entity.Property(c => c.BaseAmount)
-                .HasPrecision(18, 2)
-                .IsRequired();
-
-            entity.Property(c => c.LateFee)
-                .HasPrecision(18, 2)
-                .IsRequired();
-
-            entity.Property(c => c.InterestRate)
-                .HasPrecision(5, 2)
-                .IsRequired();
-
-            entity.Property(c => c.Status)
-                .HasConversion<string>()
-                .HasMaxLength(50)
-                .IsRequired();
-
-            entity.Property(c => c.StartDate)
-                .HasColumnType("DATETIME")
-                .IsRequired();
-
-            entity.Property(c => c.EndDate)
-                .HasColumnType("DATETIME")
-                .IsRequired();
-
-            entity.Property(c => c.CreatedAt)
-                .HasColumnType("DATETIME")
-                .IsRequired();
-
-            // 🔥 CONFIGURAR BACKING FIELDS - ESTO ES LO CRÍTICO
-            var clausesNav = entity.Metadata.FindNavigation(nameof(Contract.Clauses));
-            clausesNav?.SetPropertyAccessMode(PropertyAccessMode.Field);
-            clausesNav?.SetField("_clauses");
-
-            var signaturesNav = entity.Metadata.FindNavigation(nameof(Contract.Signatures));
-            signaturesNav?.SetPropertyAccessMode(PropertyAccessMode.Field);
-            signaturesNav?.SetField("_signatures");
-
-            var compensationsNav = entity.Metadata.FindNavigation(nameof(Contract.Compensations));
-            compensationsNav?.SetPropertyAccessMode(PropertyAccessMode.Field);
-            compensationsNav?.SetField("_compensations");
-
-            // Relaciones
+            entity.Property(c => c.OfficeId).IsRequired();
+            entity.Property(c => c.OwnerId).IsRequired();
+            entity.Property(c => c.RenterId).IsRequired();
+            entity.Property(c => c.Description).HasMaxLength(500).IsRequired();
+            entity.Property(c => c.BaseAmount).HasPrecision(18, 2).IsRequired();
+            entity.Property(c => c.LateFee).HasPrecision(18, 2).IsRequired();
+            entity.Property(c => c.InterestRate).HasPrecision(5, 2).IsRequired();
+            entity.Property(c => c.Status).HasConversion<string>().HasMaxLength(50).IsRequired();
+            entity.Property(c => c.StartDate).HasColumnType("DATETIME").IsRequired();
+            entity.Property(c => c.EndDate).HasColumnType("DATETIME").IsRequired();
+            entity.Property(c => c.CreatedAt).HasColumnType("DATETIME").IsRequired();
             entity.HasMany(c => c.Clauses)
                 .WithOne()
                 .HasForeignKey(cl => cl.ContractId)
@@ -205,7 +159,6 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
             entity.HasIndex(c => c.OwnerId);
             entity.HasIndex(c => c.RenterId);
             entity.HasIndex(c => c.Status);
-
         });
 
         builder.Entity<Clause>(entity =>
@@ -290,7 +243,7 @@ public class WorkstationContext(DbContextOptions options) : DbContext(options)
             entity.HasKey(s => s.Id);
 
             entity.Property(s => s.Id)
-                .ValueGeneratedOnAdd(); 
+                .ValueGeneratedOnAdd();
             entity.Property(s => s.ContractId)
                 .IsRequired();
 
