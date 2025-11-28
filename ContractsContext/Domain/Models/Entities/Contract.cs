@@ -19,14 +19,9 @@ public class Contract
     public DateTime? ActivatedAt { get; private set; }
     public DateTime? TerminatedAt { get; private set; }
 
-    private List<Clause> _clauses;
-    public IReadOnlyCollection<Clause> Clauses => _clauses?.AsReadOnly() ?? new List<Clause>().AsReadOnly();
-
-    private List<Signature> _signatures;
-    public IReadOnlyCollection<Signature> Signatures => _signatures?.AsReadOnly() ?? new List<Signature>().AsReadOnly();
-
-    private List<Compensation> _compensations;
-    public IReadOnlyCollection<Compensation> Compensations => _compensations?.AsReadOnly() ?? new List<Compensation>().AsReadOnly();
+    public ICollection<Clause> Clauses { get; } = new List<Clause>();
+    public ICollection<Signature> Signatures { get; } = new List<Signature>();
+    public ICollection<Compensation> Compensations { get; } = new List<Compensation>();
 
     public PaymentReceipt? Receipt { get; private set; }
 
@@ -44,10 +39,6 @@ public class Contract
         BaseAmount = baseAmount;
         LateFee = lateFee;
         InterestRate = interestRate;
-        
-        _clauses = new List<Clause>();
-        _signatures = new List<Signature>();
-        _compensations = new List<Compensation>();
     }
 
     /// <summary>
@@ -55,10 +46,6 @@ public class Contract
     /// </summary>
     public Contract() 
     {
-        // ✅ CRÍTICO: Inicializar colecciones aquí también
-        _clauses = new List<Clause>();
-        _signatures = new List<Signature>();
-        _compensations = new List<Compensation>();
     }
 
     public void AddClause(Clause clause)
@@ -69,8 +56,7 @@ public class Contract
         if (Status != ContractStatus.Draft && Status != ContractStatus.PendingSignatures)
             throw new InvalidOperationException("No se pueden agregar cláusulas después de que el contrato esté activo.");
         
-        _clauses ??= new List<Clause>();
-        _clauses.Add(clause);
+        Clauses.Add(clause);
     }
 
     public void AddSignature(Signature signature)
@@ -81,12 +67,10 @@ public class Contract
         if (Status == ContractStatus.Active)
             throw new InvalidOperationException("El contrato ya está activo.");
         
-        // ✅ Protección adicional por si acaso
-        _signatures ??= new List<Signature>();
-        _signatures.Add(signature);
+        Signatures.Add(signature);
         
-        var ownerSigned = _signatures.Any(s => s.SignerId == OwnerId);
-        var renterSigned = _signatures.Any(s => s.SignerId == RenterId);
+        var ownerSigned = Signatures.Any(s => s.SignerId == OwnerId);
+        var renterSigned = Signatures.Any(s => s.SignerId == RenterId);
         
         if (ownerSigned && renterSigned && Status == ContractStatus.Draft)
         {
@@ -99,8 +83,7 @@ public class Contract
         if (Status != ContractStatus.Active)
             throw new InvalidOperationException("Las compensaciones solo se permiten en contratos activos.");
 
-        _compensations ??= new List<Compensation>();
-        _compensations.Add(compensation);
+        Compensations.Add(compensation);
     }
 
     public void SetReceipt(PaymentReceipt receipt)
@@ -113,8 +96,8 @@ public class Contract
         if (Status != ContractStatus.PendingSignatures)
             throw new InvalidOperationException("El contrato debe estar pendiente de firmas.");
 
-        var ownerSigned = _signatures?.Any(s => s.SignerId == OwnerId) ?? false;
-        var renterSigned = _signatures?.Any(s => s.SignerId == RenterId) ?? false;
+        var ownerSigned = Signatures.Any(s => s.SignerId == OwnerId);
+        var renterSigned = Signatures.Any(s => s.SignerId == RenterId);
 
         if (!ownerSigned || !renterSigned)
             throw new InvalidOperationException("Ambas firmas son necesarias para activar el contrato.");
@@ -125,7 +108,7 @@ public class Contract
 
     public void Terminate()
     {
-        var hasPendingCompensations = _compensations?.Any(c => c.Status == CompensationStatus.Pending) ?? false;
+        var hasPendingCompensations = Compensations.Any(c => c.Status == CompensationStatus.Pending);
         if (hasPendingCompensations)
             throw new InvalidOperationException("El contrato no puede finalizar con compensaciones pendientes.");
 

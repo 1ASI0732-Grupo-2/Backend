@@ -125,7 +125,6 @@ builder.Services.AddDbContext<WorkstationContext>(options =>
            .EnableDetailedErrors();
 });
 
-// Dependency Injection
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IOfficeRepository, OfficeRepository>();
 builder.Services.AddScoped<IOfficeQueryService, OfficeQueryService>();

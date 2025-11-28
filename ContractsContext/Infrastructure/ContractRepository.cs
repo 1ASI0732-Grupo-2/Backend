@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 using ContractsContext.Domain.Models.Entities;
 using workstation_backend.ContractsContext.Domain;
+using workstation_backend.ContractsContext.Domain.Models.Entities;
 using workstation_backend.Shared.Infrastructure.Persistence.Configuration;
 using workstation_backend.Shared.Infrastructure.Persistence.Repositories;
 using workstation_backend.ContractsContext.Domain.Models.Enums;
@@ -92,6 +93,15 @@ public class ContractRepository(WorkstationContext context)
     public async Task AddAsync(Contract contract)
     {
         await context.Set<Contract>().AddAsync(contract);
+    }
+
+    /// <summary>
+    /// Agrega una firma explícitamente al contexto de persistencia.
+    /// </summary>
+    /// <param name="signature">Firma a agregar.</param>
+    public async Task AddSignatureAsync(Signature signature)
+    {
+        await context.Set<Signature>().AddAsync(signature);
     }
 
     /// <summary>

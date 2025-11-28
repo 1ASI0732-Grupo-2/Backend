@@ -1,9 +1,11 @@
 using System;
 using ContractsContext.Domain.Models.Entities;
 using FluentValidation;
+using Microsoft.Extensions.Logging;
 using workstation_backend.ContractsContext.Domain;
 using workstation_backend.ContractsContext.Domain.Models.Commands;
 using workstation_backend.ContractsContext.Domain.Models.Entities;
+using workstation_backend.ContractsContext.Domain.Models.Enums;
 using workstation_backend.ContractsContext.Domain.Models.Events;
 using workstation_backend.ContractsContext.Domain.Models.Validators;
 using workstation_backend.ContractsContext.Domain.Services;
@@ -22,6 +24,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
     {
         private readonly IContractRepository _contractRepository;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<ContractCommandService> _logger;
 
         private readonly IValidator<CreateContractCommand> _createContractValidator;
         private readonly IValidator<AddClauseCommand> _addClauseValidator;
@@ -43,10 +46,12 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             IValidator<SignContractCommand> signContractValidator,
             IValidator<UpdateReceiptCommand> updateReceiptValidator,
             IValidator<FinishContractCommand> finishContractValidator,
-            IContractEventService contractEventService)
+            IContractEventService contractEventService,
+            ILogger<ContractCommandService> logger)
         {
             _contractRepository = contractRepository ?? throw new ArgumentNullException(nameof(contractRepository));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
             _createContractValidator = createContractValidator;
             _addClauseValidator = addClauseValidator;
@@ -115,12 +120,21 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
         public async Task<Clause> Handle(AddClauseCommand command)
         {
+            _logger.LogInformation("=== INICIANDO Handle(AddClauseCommand) ===");
+            _logger.LogInformation($"ContractId: {command.ContractId}, Clause: {command.Name}");
+
             var validationResult = await _addClauseValidator.ValidateAsync(command);
             if (!validationResult.IsValid)
+            {
+                _logger.LogWarning("Validación de cláusula fallida");
                 throw new ValidationException(validationResult.Errors);
+            }
 
+            _logger.LogInformation($"Obteniendo contrato: {command.ContractId}");
             var contract = await _contractRepository.GetByIdAsync(command.ContractId)
                 ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
+
+            _logger.LogInformation($"Contrato encontrado. Clauses actuales: {contract.Clauses.Count}");
 
             var clause = new Clause(
                 command.ContractId,
@@ -131,8 +145,10 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             );
 
             contract.AddClause(clause);
+            _logger.LogInformation($"Cláusula agregada. Total clauses: {contract.Clauses.Count}");
 
             await _contractRepository.SaveChangesAsync();
+            _logger.LogInformation("Cambios guardados");
 
             var @event = new ClauseAddedEvent(
                 contract.Id,
@@ -143,6 +159,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             );
 
             await _contractEventService.PublishAsync(@event);
+            _logger.LogInformation("=== COMPLETADO Handle(AddClauseCommand) ===");
 
             return clause;
         }
@@ -172,7 +189,8 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             );
 
             contract.AddCompensation(compensation);
-            await _unitOfWork.CompleteAsync();
+            
+            await _contractRepository.SaveChangesAsync();
 
             return compensation;
         }
@@ -206,116 +224,72 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         /// Maneja la firma de un contrato por un usuario.
         /// </summary>
         /// <param name="command">Comando con los datos de la firma.</param>
-        /// <returns>El contrato actualizado.</returns>
+        /// <returns>La firma creada.</returns>
         /// <exception cref="ValidationException">Si el comando no es válido.</exception>
         /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
-        public async Task<Contract> Handle(SignContractCommand command)
+        public async Task<Signature> Handle(SignContractCommand command)
         {
+            //_logger.LogInformation("iniciando");
+            //_logger.LogInformation($"ContractId: {command.ContractId}, SignerId: {command.SignerId}");
+
             try
             {
-                // VALIDACIÓN
+                //_logger.LogInformation("Validando comando...");
                 var validationResult = await _signContractValidator.ValidateAsync(command);
                 if (!validationResult.IsValid)
                 {
+                    //_logger.LogWarning("Validación fallida");
                     throw new ValidationException(validationResult.Errors);
                 }
+                //_logger.LogInformation("Comando válido");
 
-                // OBTENER CONTRATO
+                //_logger.LogInformation($"Obteniendo contrato con ID: {command.ContractId}");
                 var contract = await _contractRepository.GetByIdAsync(command.ContractId);
-
+                
                 if (contract == null)
                 {
+                    //_logger.LogError($"Contrato no encontrado: {command.ContractId}");
                     throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
                 }
+                //_logger.LogInformation($"Contrato encontrado. Estado: {contract.Status}, Signatures actuales: {contract.Signatures.Count}");
 
-                // VERIFICAR ESTADO DEL CONTRATO
-                if (contract.Signatures == null)
-                {
-                    throw new InvalidOperationException("❌ contract.Signatures es NULL");
-                }
+                //_logger.LogInformation("Creando nueva firma...");
+                var signature = new Signature(
+                    command.ContractId,
+                    command.SignerId,
+                    command.SignatureHash
+                );
+                //_logger.LogInformation($"Firma creada con ID: {signature.Id}");
 
-                if (contract.Clauses == null)
-                {
-                    throw new InvalidOperationException("❌ contract.Clauses es NULL");
-                }
+                //_logger.LogInformation("Agregando firma explícitamente al contexto (INSERT)...");
+                await _contractRepository.AddSignatureAsync(signature);
+                //_logger.LogInformation($"Firma agregada al contexto");
 
-                if (contract.Compensations == null)
-                {
-                    throw new InvalidOperationException("❌ contract.Compensations es NULL");
-                }
+                //_logger.LogInformation("5. Guardando SOLO la firma en la BD...");
+                await _contractRepository.SaveChangesAsync();
+                //_logger.LogInformation("Firma guardada exitosamente");
 
-                // CREAR FIRMA
-                Signature signature;
-                try
-                {
-                    signature = new Signature(
-                        command.ContractId,
-                        command.SignerId,
-                        command.SignatureHash
-                    );
-                }
-                catch (Exception ex)
-                {
-                    throw new InvalidOperationException($"❌ Error al crear Signature: {ex.Message}", ex);
-                }
+                //_logger.LogInformation("Agregando firma a la colección del contrato...");
+                contract.AddSignature(signature);
+                //_logger.LogInformation($"Firma agregada a colección. Total: {contract.Signatures.Count}");
 
-                // Verificar que la firma se creó correctamente
-                if (signature == null)
-                {
-                    throw new InvalidOperationException("❌ La firma se creó pero es null");
-                }
+                //_logger.LogInformation("Publicando evento...");
+                var @event = new ContractSignedEvent(
+                    contract.Id,
+                    signature.SignerId,
+                    signature.SignatureHash,
+                    DateTime.UtcNow,
+                    true
+                );
+                await _contractEventService.PublishAsync(@event);
+                //_logger.LogInformation("✓ Evento publicado");
 
-                if (signature.Id == Guid.Empty)
-                {
-                    throw new InvalidOperationException("❌ La firma se creó pero Id = Guid.Empty");
-                }
-
-                // AGREGAR FIRMA AL CONTRATO
-                try
-                {
-                    contract.AddSignature(signature);
-                }
-                catch (Exception ex)
-                {
-                    throw new InvalidOperationException(
-                        $"❌ Error en contract.AddSignature(). " +
-                        $"Signatures.Count antes={contract.Signatures?.Count ?? -1}. " +
-                        $"Error: {ex.Message}",
-                        ex
-                    );
-                }
-
-                // GUARDAR
-                try
-                {
-                    await _unitOfWork.CompleteAsync();
-                }
-                catch (Exception ex)
-                {
-                    throw new InvalidOperationException($"❌ Error al guardar (UnitOfWork.CompleteAsync): {ex.Message}", ex);
-                }
-
-                // PUBLICAR EVENTO
-                try
-                {
-                    var @event = new ContractSignedEvent(
-                        contract.Id,
-                        signature.SignerId,
-                        signature.SignatureHash,
-                        DateTime.UtcNow,
-                        true
-                    );
-                    await _contractEventService.PublishAsync(@event);
-                }
-                catch (Exception ex)
-                {
-                    throw new InvalidOperationException($"❌ Error al publicar evento: {ex.Message}", ex);
-                }
-
-                return contract;
+                //_logger.LogInformation("=== COMPLETADO Handle(SignContractCommand) exitosamente ===");
+                return signature;
             }
             catch (Exception ex)
             {
+                //_logger.LogError(ex, $"Error en Handle(SignContractCommand): {ex.Message}");
                 throw new Exception(
                     $"Error al firmar contrato. ContractId={command.ContractId}, SignerId={command.SignerId}. " +
                     $"Detalle: {ex.Message}",

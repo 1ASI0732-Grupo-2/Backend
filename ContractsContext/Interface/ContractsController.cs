@@ -95,14 +95,14 @@ namespace workstation_backend.ContractsContext.Interface
         /// </summary>
         /// <param name="contractId">Identificador del contrato.</param>
         /// <param name="resource">Datos de la firma.</param>
-        /// <returns>El contrato actualizado.</returns>
+        /// <returns>La firma creada.</returns>
         [HttpPost("{contractId}/signatures")]
-        public async Task<ActionResult<ContractResource>> SignContract(Guid contractId, [FromBody] SignContractResource resource)
+        public async Task<ActionResult<SignatureResource>> SignContract(Guid contractId, [FromBody] SignContractResource resource)
         {
             var command = SignContractCommandAssembler.ToCommand(contractId, resource);
-            var contract = await _contractCommandService.Handle(command);
-            var contractResource = ContractResourceAssembler.ToResource(contract);
-            return Ok(contractResource);
+            var signature = await _contractCommandService.Handle(command);
+            var signatureResource = SignatureResourceAssembler.ToResource(signature);
+            return CreatedAtAction(nameof(GetContractById), new { id = contractId }, signatureResource);
         }
 
         /// <summary>
