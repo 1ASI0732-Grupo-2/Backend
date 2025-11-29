@@ -9,6 +9,7 @@ using workstation_backend.ContractsContext.Domain.Models.Enums;
 using workstation_backend.ContractsContext.Domain.Models.Events;
 using workstation_backend.ContractsContext.Domain.Models.Validators;
 using workstation_backend.ContractsContext.Domain.Services;
+using workstation_backend.OfficesContext.Domain;
 using workstation_backend.Shared.Domain.Repositories;
 
 namespace workstation_backend.ContractsContext.Application.CommandServices
@@ -25,6 +26,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         private readonly IContractRepository _contractRepository;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<ContractCommandService> _logger;
+        private readonly IOfficeRepository _officeRepository;
 
         private readonly IValidator<CreateContractCommand> _createContractValidator;
         private readonly IValidator<AddClauseCommand> _addClauseValidator;
@@ -39,6 +41,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
         /// </summary>
         public ContractCommandService(
             IContractRepository contractRepository,
+            IOfficeRepository officeRepository,
             IUnitOfWork unitOfWork,
             IValidator<CreateContractCommand> createContractValidator,
             IValidator<AddClauseCommand> addClauseValidator,
@@ -50,6 +53,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             ILogger<ContractCommandService> logger)
         {
             _contractRepository = contractRepository ?? throw new ArgumentNullException(nameof(contractRepository));
+            _officeRepository = officeRepository ?? throw new ArgumentNullException(nameof(officeRepository));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
@@ -189,7 +193,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             );
 
             contract.AddCompensation(compensation);
-            
+
             await _contractRepository.SaveChangesAsync();
 
             return compensation;
@@ -197,18 +201,43 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
 
         /// <summary>
         /// Maneja la activación de un contrato.
+        /// Marca la oficina asociada como no disponible (available = false).
         /// </summary>
         /// <param name="command">Comando con el identificador del contrato a activar.</param>
         /// <returns>El ID del contrato activado.</returns>
-        /// <exception cref="KeyNotFoundException">Si el contrato no existe.</exception>
+        /// <exception cref="KeyNotFoundException">Si el contrato o la oficina no existen.</exception>
         public async Task<Guid> Handle(ActivateContractCommand command)
         {
+            _logger.LogInformation("=== INICIANDO ActivateContract ===");
+            _logger.LogInformation($"ContractId: {command.ContractId}");
+
+            // 1. Obtener el contrato
             var contract = await _contractRepository.GetByIdAsync(command.ContractId)
                 ?? throw new KeyNotFoundException($"Contract {command.ContractId} not found.");
 
-            contract.Activate();
-            await _unitOfWork.CompleteAsync();
+            _logger.LogInformation($"Contrato encontrado. OfficeId: {contract.OfficeId}");
+            _logger.LogInformation($"Firmas actuales: {contract.Signatures.Count}");
 
+            // 2. Activar el contrato (esto valida que haya 2 firmas)
+            contract.Activate();
+            _logger.LogInformation("Contrato activado. Nuevo estado: ACTIVE");
+
+            // 3. Obtener la oficina asociada
+            _logger.LogInformation($"Obteniendo oficina con ID: {contract.OfficeId}");
+            var office = await _officeRepository.FindByIdAsync(contract.OfficeId)
+                ?? throw new KeyNotFoundException($"Office {contract.OfficeId} not found.");
+
+            _logger.LogInformation($"Oficina encontrada. Available actual: {office.Available}");
+
+            // 4. Marcar oficina como no disponible
+            office.Available = false;
+            _logger.LogInformation("Oficina marcada como no disponible (Available = false)");
+
+            // 5. Guardar todos los cambios en una transacción
+            await _unitOfWork.CompleteAsync();
+            _logger.LogInformation("Cambios guardados en la base de datos");
+
+            // 6. Publicar evento
             var @event = new ContractActivatedEvent(
                 contract.Id,
                 contract.OfficeId,
@@ -216,6 +245,8 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
             );
 
             await _contractEventService.PublishAsync(@event);
+            _logger.LogInformation("Evento ContractActivatedEvent publicado");
+            _logger.LogInformation("=== COMPLETADO ActivateContract ===\n");
 
             return contract.Id;
         }
@@ -245,7 +276,7 @@ namespace workstation_backend.ContractsContext.Application.CommandServices
 
                 //_logger.LogInformation($"Obteniendo contrato con ID: {command.ContractId}");
                 var contract = await _contractRepository.GetByIdAsync(command.ContractId);
-                
+
                 if (contract == null)
                 {
                     //_logger.LogError($"Contrato no encontrado: {command.ContractId}");
