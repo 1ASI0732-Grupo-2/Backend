@@ -18,7 +18,7 @@ services:
     networks:
       - workstation-network
 
-  # API Gateway - Instancia 1
+  # API Gateway 1
   gateway1:
     build:
       context: .
@@ -38,7 +38,7 @@ services:
     networks:
       - workstation-network
 
-  # API Gateway - Instancia 2
+  # API Gateway 2
   gateway2:
     build:
       context: .
@@ -79,7 +79,7 @@ services:
     networks:
       - workstation-network
 
-  # SQL Server Database (para Gateway) - CORREGIDO
+  # SQL Server Database
   mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: workstation-mssql
@@ -101,7 +101,7 @@ services:
     networks:
       - workstation-network
 
-  # PostgreSQL Database (para ContractService)
+  # PostgreSQL Database
   postgres:
     image: postgres:16-alpine
     container_name: workstation-postgres

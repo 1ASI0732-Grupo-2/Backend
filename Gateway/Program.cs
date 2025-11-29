@@ -131,7 +131,6 @@ builder.Services.AddScoped<IHashService, HashService>();
 builder.Services.AddScoped<IJwtEncryptService, JwtEncryptService>();
 builder.Services.AddValidatorsFromAssemblyContaining<UserValidator>();
 
-// HTTP Client para ContractService
 builder.Services.AddHttpClient("ContractService", client =>
 {
     client.BaseAddress = new Uri(builder.Configuration["Services:ContractService"] ?? "http://contract-service:80");

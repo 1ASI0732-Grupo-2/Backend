@@ -5,7 +5,7 @@ using workstation_backend.ContractsContext.Domain.Models.Entities;
 
 namespace workstation_backend.Shared.Infrastructure.Persistence.Configuration;
 
-// ✅ CORRECTO: Constructor tipado
+
 public class ContractContext : DbContext
 {
     public ContractContext(DbContextOptions<ContractContext> options) : base(options)
@@ -22,19 +22,17 @@ public class ContractContext : DbContext
     {
         base.OnModelCreating(builder);
 
-        // ✅ CORREGIDO: Configuración global para DateTime - usa timestamptz
         foreach (var entityType in builder.Model.GetEntityTypes())
         {
             foreach (var property in entityType.GetProperties())
             {
                 if (property.ClrType == typeof(DateTime) || property.ClrType == typeof(DateTime?))
                 {
-                    property.SetColumnType("timestamptz"); // ✅ Cambio crítico
+                    property.SetColumnType("timestamptz");
                 }
             }
         }
 
-        // Contract
         builder.Entity<Contract>(entity =>
         {
             entity.ToTable("Contracts");
@@ -48,8 +46,6 @@ public class ContractContext : DbContext
             entity.Property(c => c.LateFee).HasPrecision(18, 2).IsRequired();
             entity.Property(c => c.InterestRate).HasPrecision(5, 2).IsRequired();
             entity.Property(c => c.Status).HasConversion<string>().HasMaxLength(50).IsRequired();
-
-            // ✅ Cambiar a timestamptz
             entity.Property(c => c.StartDate)
                 .HasColumnType("timestamptz")
                 .IsRequired();
@@ -90,7 +86,6 @@ public class ContractContext : DbContext
             entity.HasIndex(c => c.Status);
         });
 
-        // Clause (sin cambios, no tiene DateTime)
         builder.Entity<Clause>(entity =>
         {
             entity.ToTable("Clauses");
@@ -106,7 +101,6 @@ public class ContractContext : DbContext
             entity.HasIndex(c => c.ContractId);
         });
 
-        // PaymentReceipt
         builder.Entity<PaymentReceipt>(entity =>
         {
             entity.ToTable("PaymentReceipts");
@@ -120,7 +114,6 @@ public class ContractContext : DbContext
             entity.Property(pr => pr.Notes).HasMaxLength(1000);
             entity.Property(pr => pr.Status).HasConversion<string>().HasMaxLength(50).IsRequired();
 
-            // ✅ Cambiar a timestamptz
             entity.Property(pr => pr.IssuedAt)
                 .HasColumnType("timestamptz")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")
@@ -133,7 +126,6 @@ public class ContractContext : DbContext
             entity.HasIndex(pr => pr.ReceiptNumber).IsUnique();
         });
 
-        // Signature
         builder.Entity<Signature>(entity =>
         {
             entity.ToTable("Signatures");
@@ -144,7 +136,6 @@ public class ContractContext : DbContext
             entity.Property(s => s.SignerId).IsRequired();
             entity.Property(s => s.SignatureHash).HasMaxLength(256).IsRequired();
 
-            // ✅ Cambiar a timestamptz
             entity.Property(s => s.SignedAt)
                 .HasColumnType("timestamptz")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")
@@ -155,7 +146,6 @@ public class ContractContext : DbContext
             entity.HasIndex(s => s.SignerId);
         });
 
-        // Compensation
         builder.Entity<Compensation>(entity =>
         {
             entity.ToTable("Compensations");
@@ -169,7 +159,6 @@ public class ContractContext : DbContext
             entity.Property(c => c.Reason).HasMaxLength(500).IsRequired();
             entity.Property(c => c.Status).HasConversion<string>().HasMaxLength(50).IsRequired();
 
-            // ✅ Cambiar a timestamptz
             entity.Property(c => c.CreatedAt)
                 .HasColumnType("timestamptz")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")

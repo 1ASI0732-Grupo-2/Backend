@@ -18,7 +18,6 @@ using workstation_backend.Shared.Infrastructure.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// JWT Configuration
 var jwtKey = builder.Configuration["Jwt:key"];
 if (string.IsNullOrWhiteSpace(jwtKey))
     throw new Exception("JWT key is not set in configuration.");
@@ -88,7 +87,6 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// Database Configuration
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 if (string.IsNullOrWhiteSpace(connectionString))
     throw new Exception("Database connection string is not set.");
@@ -98,22 +96,17 @@ Console.WriteLine($"Connection String: {connectionString}");
 builder.Services.AddDbContext<ContractContext>(options =>
 {
     options.UseNpgsql(connectionString)
-           .LogTo(Console.WriteLine, LogLevel.Information) // Cambié a Information para ver más logs
-           .EnableSensitiveDataLogging() // Para ver los valores en desarrollo
+           .LogTo(Console.WriteLine, LogLevel.Information)
+           .EnableSensitiveDataLogging()
            .EnableDetailedErrors();
 });
 
-// Shared Infrastructure
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-// Services
 builder.Services.AddScoped<IContractRepository, ContractRepository>();
 builder.Services.AddScoped<IContractCommandService, ContractCommandService>();
 builder.Services.AddScoped<IContractQueryService, ContractQueryService>();
 builder.Services.AddScoped<IContractEventService, ContractEventService>();
-
-// Validators
 builder.Services.AddValidatorsFromAssemblyContaining<AddClauseCommandValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<AddCompensationCommandValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateContractCommandValidator>();
@@ -121,7 +114,6 @@ builder.Services.AddValidatorsFromAssemblyContaining<FinishContractCommandValida
 builder.Services.AddValidatorsFromAssemblyContaining<SignContractCommandValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateReceiptCommandValidator>();
 
-// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -139,7 +131,6 @@ var app = builder.Build();
 
 app.UseCors("AllowAll");
 
-// Swagger simple y directo
 app.UseSwagger();
 app.UseSwaggerUI();
 
@@ -149,7 +140,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// ✅ CORREGIDO: Crear la base de datos con EnsureCreated
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -163,40 +153,35 @@ using (var scope = app.Services.CreateScope())
     {
         try
         {
-            logger.LogInformation("=== Attempting to setup PostgreSQL database ===");
-            logger.LogInformation($"Connection string: {connectionString}");
+            //logger.LogInformation("=== Attempting to setup PostgreSQL database ===");
+            //logger.LogInformation($"Connection string: {connectionString}");
             
-            // Verifica la conexión
             var canConnect = context.Database.CanConnect();
-            logger.LogInformation($"Can connect to PostgreSQL: {canConnect}");
+            //logger.LogInformation($"Can connect to PostgreSQL: {canConnect}");
             
             if (!canConnect)
             {
                 throw new Exception("Cannot connect to PostgreSQL");
             }
             
-            // Crea la base de datos y tablas
-            logger.LogInformation("Creating database and tables...");
+            
+            //logger.LogInformation("Creating database and tables...");
             var created = context.Database.EnsureCreated();
             
-            if (created)
-            {
-                logger.LogInformation("✅ PostgreSQL database CREATED successfully.");
-            }
-            else
-            {
-                logger.LogInformation("✅ PostgreSQL database already EXISTS.");
-            }
+            //if (created)
+            //{
+            //    logger.LogInformation("PostgreSQL database CREATED successfully.");
+            //}
+           //else
+            //{
+                //logger.LogInformation("PostgreSQL database already EXISTS.");
+            //}
             
-            // Verifica que las tablas existan
             var tables = context.Model.GetEntityTypes().Select(t => t.GetTableName()).ToList();
-            logger.LogInformation($"Expected tables: {string.Join(", ", tables)}");
-            
-            // Prueba una consulta simple
+            //logger.LogInformation($"Expected tables: {string.Join(", ", tables)}");
             var contractCount = context.Contracts.Count();
-            logger.LogInformation($"Contract count: {contractCount}");
-            
-            logger.LogInformation("=== PostgreSQL setup completed successfully ===");
+            //logger.LogInformation($"Contract count: {contractCount}");
+            //logger.LogInformation("=== PostgreSQL setup completed successfully ===");
             break;
         }
         catch (Exception ex)
