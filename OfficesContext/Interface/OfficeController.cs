@@ -10,7 +10,7 @@ using workstation_backend.OfficesContext.Interface.Transform;
 namespace workstation_backend.OfficesContext.Interface;
 
 /// <summary>
-/// Controlador para la gestión de oficinas y espacios de trabajo
+/// Controlador para la gestión de oficinas
 /// </summary>
 [Route("api/workstation/[controller]")]
 [ApiController]
