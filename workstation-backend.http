@@ -1,6 +1,0 @@
-@workstation_backend_HostAddress = http://localhost:5132
-
-GET {{workstation_backend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

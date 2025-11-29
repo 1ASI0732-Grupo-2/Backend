@@ -1,0 +1,133 @@
+version: '3.8'
+
+services:
+  # Load Balancer - Nginx
+  nginx:
+    image: nginx:alpine
+    container_name: workstation-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - gateway1
+      - gateway2
+      - contract-service
+    restart: unless-stopped
+    networks:
+      - workstation-network
+
+  # API Gateway - Instancia 1
+  gateway1:
+    build:
+      context: .
+      dockerfile: ./Gateway/Dockerfile
+    container_name: workstation-gateway-1
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=mssql;Database=workstation_db;User Id=sa;Password=YourPassword123!;Encrypt=false;TrustServerCertificate=true;
+      - Jwt__Key=A1s2D3f4G5h6J7k8L9z0Q1w2E3r4T5y6
+      - Services__ContractService=http://contract-service:80
+      - ASPNETCORE_URLS=http://+:80
+    expose:
+      - "80"
+    depends_on:
+      mssql:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - workstation-network
+
+  # API Gateway - Instancia 2
+  gateway2:
+    build:
+      context: .
+      dockerfile: ./Gateway/Dockerfile
+    container_name: workstation-gateway-2
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=mssql;Database=workstation_db;User Id=sa;Password=YourPassword123!;Encrypt=false;TrustServerCertificate=true;
+      - Jwt__Key=A1s2D3f4G5h6J7k8L9z0Q1w2E3r4T5y6
+      - Services__ContractService=http://contract-service:80
+      - ASPNETCORE_URLS=http://+:80
+    expose:
+      - "80"
+    depends_on:
+      mssql:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - workstation-network
+
+  # Contract Service Microservice
+  contract-service:
+    build:
+      context: .
+      dockerfile: ./Services/ContractService/Dockerfile
+    container_name: workstation-contract-service
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=contracts_db;Username=postgres;Password=YourPassword123!;Port=5432;
+      - Jwt__Key=A1s2D3f4G5h6J7k8L9z0Q1w2E3r4T5y6
+      - ASPNETCORE_URLS=http://+:80
+    expose:
+      - "80"
+    ports:
+      - "5001:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - workstation-network
+
+  # SQL Server Database (para Gateway) - CORREGIDO
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: workstation-mssql
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "YourPassword123!"
+      MSSQL_PID: Developer
+    volumes:
+      - mssql_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'YourPassword123!' -C -Q 'SELECT 1' -b -o /dev/null"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 45s
+    restart: unless-stopped
+    networks:
+      - workstation-network
+
+  # PostgreSQL Database (para ContractService)
+  postgres:
+    image: postgres:16-alpine
+    container_name: workstation-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "YourPassword123!"
+      POSTGRES_DB: contracts_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - workstation-network
+
+volumes:
+  mssql_data:
+    driver: local
+  postgres_data:
+    driver: local
+
+networks:
+  workstation-network:
+    driver: bridge
